@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9D56B625-BE0A-FDBD-8093-ABAF6BC63895}</ProjectGuid>
+    <ProjectGuid>{8978B0ED-E096-49FA-6C49-C0AA9917E6CA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -71,8 +71,9 @@
     <Compile Include="Assets\Scripts\ScripatableObj\ChatConv.cs" />
     <Compile Include="Assets\Scripts\FarP\ChoiceController.cs" />
     <Compile Include="Assets\Scripts\LoadingScren\LoadingScreenManager.cs" />
-    <Compile Include="Assets\Scripts\FarP\NPCController.cs" />
     <Compile Include="Assets\Scripts\FarP\CMFreeLookOnlyWhenMousePress.cs" />
+    <Compile Include="Assets\Scripts\FarP\NPCController.cs" />
+    <Compile Include="Assets\Scripts\Other\BobUpAndDown.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
