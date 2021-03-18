@@ -18,6 +18,7 @@ public class FarPersonManager : MonoBehaviour
     [SerializeField] private GameObject targetIcon;
     [SerializeField] private GameObject optionsPanel;
     [SerializeField] private GameObject playerAwnser;
+    [SerializeField] private GameObject rpPanel;
 
 
     public bool inChat;
@@ -105,6 +106,26 @@ public class FarPersonManager : MonoBehaviour
     public void ClearAwnser()
     {
         playerAwnser.GetComponent<TextMeshProUGUI>().text = "";
+    }
+
+    public void OpenRPPanel(NPC _npc)
+    {
+        rpPanel.transform.GetChild(3).GetComponent<TextMeshProUGUI>().text = _npc.rpName;
+        rpPanel.transform.GetChild(4).GetComponent<TextMeshProUGUI>().text = _npc.eyeColour;
+        rpPanel.transform.GetChild(5).GetComponent<TextMeshProUGUI>().text = _npc.height;
+        rpPanel.transform.GetChild(6).GetComponent<TextMeshProUGUI>().text = _npc.affiliation;
+        rpPanel.transform.GetChild(7).GetComponent<TextMeshProUGUI>().text = _npc.rpClass;
+        rpPanel.transform.GetChild(8).GetComponent<TextMeshProUGUI>().text = _npc.description;
+
+        rpPanel.transform.GetChild(0).GetComponent<Image>().sprite = _npc.playerIcon;
+        rpPanel.transform.GetChild(1).GetComponent<Image>().sprite = _npc.affiliationIcon;
+
+        rpPanel.SetActive(true);
+    }
+
+    public void CloseRPPanel()
+    {
+        rpPanel.SetActive(false);
     }
 
    

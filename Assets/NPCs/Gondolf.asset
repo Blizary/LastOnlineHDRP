@@ -17,3 +17,12 @@ MonoBehaviour:
   tooltipInfo: 'Gondolf the Pink
 
     <Taking the Hobbits to Isengard>'
+  playerIcon: {fileID: 21300000, guid: 725cd590c3a700144baf18317de9fd63, type: 3}
+  affiliationIcon: {fileID: 21300000, guid: c65a7da3a5bb01d46a87b519afac00ee, type: 3}
+  rpName: Dazzlard
+  eyeColour: Pink
+  height: Huge
+  affiliation: Magic
+  rpClass: Bubble Connoisseur
+  description: Im here to turn everything pink and fabulous. The world shall be ruled
+    by bubble tea and rainbows

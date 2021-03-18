@@ -49,7 +49,6 @@ public class ThirdPersonMovement : MonoBehaviour
                 transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
                 Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-                moveDir.y = 0;
                 controller.Move(moveDir.normalized * speed * Time.deltaTime);
 
                
@@ -90,6 +89,7 @@ public class ThirdPersonMovement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             manager.NoTarget();
+            manager.CloseRPPanel();
             if(manager.inChat)
             {
                 manager.CloseChat();
@@ -113,7 +113,13 @@ public class ThirdPersonMovement : MonoBehaviour
             {
                 //found a npc
                 manager.UpdateTarget(hit.transform.gameObject.GetComponent<NPCController>().npcInfo);
+                if(hit.transform.gameObject.GetComponent<NPCController>().npcInfo.rpName!=null)//there is an rp profile
+                {
+                    manager.OpenRPPanel(hit.transform.gameObject.GetComponent<NPCController>().npcInfo);
+                }
             }
+
+
         }
        
     }
