@@ -1,0 +1,258 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1440; Version 1909; 64bit' Language: 'en' Physical Memory: 32676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/P/LastOnlineHD/LastOnlineHDRP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57468
+Successfully changed project path to: C:/P/LastOnlineHD/LastOnlineHDRP
+C:/P/LastOnlineHD/LastOnlineHDRP
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 86.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/P/LastOnlineHD/LastOnlineHDRP/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002252 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.332 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 102.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.562 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for pixel shader [0x80070057]
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3633 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.4 MB.
+System memory in use after: 180.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4087.
+Total: 2.645300 ms (FindLiveObjects: 0.307000 ms CreateObjectMapping: 0.160000 ms MarkObjects: 2.106200 ms  DeleteObjects: 0.071000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animations/NPC/Floating.anim
+  artifactKey: Guid(d83e583a80362dd4a827884782c559eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/NPC/Floating.anim using Guid(d83e583a80362dd4a827884782c559eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c74da5153dfc2416f13f585d3bb54df') in 0.044966 seconds
+  Import took 0.052687 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001573 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.259 seconds
+Platform modules already initialized, skipping
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for pixel shader [0x80070057]
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3319 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.7 MB.
+System memory in use after: 165.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4090.
+Total: 5.788200 ms (FindLiveObjects: 0.439700 ms CreateObjectMapping: 0.206500 ms MarkObjects: 5.118000 ms  DeleteObjects: 0.022900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.200645 seconds.
+  path: Assets/Scenes/Game/FarPersonGame2.unity
+  artifactKey: Guid(890253b663abfe04ba059ff7388c0d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/FarPersonGame2.unity using Guid(890253b663abfe04ba059ff7388c0d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b33b3107a87e21586d0a278e30d04c') in 0.026994 seconds
+  Import took 0.033741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.048126 seconds.
+  path: Assets/NPCs
+  artifactKey: Guid(b799dea6a736c70499654978e0ab3fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs using Guid(b799dea6a736c70499654978e0ab3fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a011b37ca539b687712a5849e039bc25') in 0.008973 seconds
+  Import took 0.015489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004246 seconds.
+  path: Assets/NPCs
+  artifactKey: Guid(b799dea6a736c70499654978e0ab3fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs using Guid(b799dea6a736c70499654978e0ab3fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a011b37ca539b687712a5849e039bc25') in 0.003867 seconds
+  Import took 0.010472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078064 seconds.
+  path: Assets/NPCs/Gondolf.asset
+  artifactKey: Guid(22d2bc3235be53f459625238900a0047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Gondolf.asset using Guid(22d2bc3235be53f459625238900a0047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4c8d141917b225e130030763e26cc4') in 0.012542 seconds
+  Import took 0.020007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/NPCs/Noel.asset
+  artifactKey: Guid(74c1f074c61fc354baa6a3ff044564c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Noel.asset using Guid(74c1f074c61fc354baa6a3ff044564c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87cca382b449827bee3117f8f025d83') in 0.008840 seconds
+  Import took 0.016349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.884708 seconds.
+  path: Assets/NPCs/Gondolf.asset
+  artifactKey: Guid(22d2bc3235be53f459625238900a0047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Gondolf.asset using Guid(22d2bc3235be53f459625238900a0047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f925496d7c216eaaf51a932fe3a14f') in 0.004586 seconds
+  Import took 0.011638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.472609 seconds.
+  path: Assets/NPCs/Gondolf.asset
+  artifactKey: Guid(22d2bc3235be53f459625238900a0047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Gondolf.asset using Guid(22d2bc3235be53f459625238900a0047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3851ab0217c3f3ab9a30ae659f8d30b7') in 0.005150 seconds
+  Import took 0.012803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011012 seconds.
+  path: Assets/NPCs/Gondolf.asset
+  artifactKey: Guid(22d2bc3235be53f459625238900a0047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPCs/Gondolf.asset using Guid(22d2bc3235be53f459625238900a0047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3851ab0217c3f3ab9a30ae659f8d30b7') in 0.004920 seconds
+  Import took 0.012651 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.312 seconds
+Platform modules already initialized, skipping
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for pixel shader [0x80070057]
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3319 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.8 MB.
+System memory in use after: 165.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4093.
+Total: 5.840500 ms (FindLiveObjects: 0.493200 ms CreateObjectMapping: 0.310400 ms MarkObjects: 5.010200 ms  DeleteObjects: 0.025100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.747466 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c19bc2ec61bb7c0f9cbd72204ac7d4') in 0.022974 seconds
+  Import took 0.030633 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002317 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Platform modules already initialized, skipping
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+D3D shader create error for pixel shader [0x80070057]
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3319 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.9 MB.
+System memory in use after: 165.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 4096.
+Total: 6.212800 ms (FindLiveObjects: 0.819300 ms CreateObjectMapping: 0.447500 ms MarkObjects: 4.909300 ms  DeleteObjects: 0.034600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -55,6 +55,18 @@ public class ThirdPersonMovement : MonoBehaviour
             }
 
 
+            if (Input.GetKeyDown(KeyCode.B))
+            {
+                manager.OpenInventory();
+
+            }
+
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                manager.OpenCharacter();
+
+            }
+
         }
         else
         {
@@ -74,6 +86,8 @@ public class ThirdPersonMovement : MonoBehaviour
                     manager.CloseChat();
 
                 }
+
+        
             }
         }
 
@@ -90,7 +104,9 @@ public class ThirdPersonMovement : MonoBehaviour
         {
             manager.NoTarget();
             manager.CloseRPPanel();
-            if(manager.inChat)
+            manager.CloseCharacter();
+            manager.CloseInventory();
+            if (manager.inChat)
             {
                 manager.CloseChat();
             }

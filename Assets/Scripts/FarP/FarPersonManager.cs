@@ -10,6 +10,7 @@ public class FarPersonManager : MonoBehaviour
 
     public List<ChatConv> chatbox;
     [SerializeField] private GameObject inventoryOBJ;
+    [SerializeField] private GameObject characterOBJ;
     [SerializeField] private string noTargetMessage;
     [SerializeField] private string friendlyTargetMessage;
     [SerializeField] private GameObject warningOBJ;
@@ -19,6 +20,7 @@ public class FarPersonManager : MonoBehaviour
     [SerializeField] private GameObject optionsPanel;
     [SerializeField] private GameObject playerAwnser;
     [SerializeField] private GameObject rpPanel;
+    [SerializeField] private GameObject tooltipPanel;
 
 
     public bool inChat;
@@ -126,6 +128,64 @@ public class FarPersonManager : MonoBehaviour
     public void CloseRPPanel()
     {
         rpPanel.SetActive(false);
+    }
+
+    public void ShowToolTip(NPC _npc)
+    {
+        if(!tooltipPanel.activeInHierarchy || tooltipPanel.transform.GetChild(0).GetComponent< TextMeshProUGUI>().text!= _npc.tooltipInfo)
+        {
+            tooltipPanel.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = _npc.tooltipInfo;
+            tooltipPanel.SetActive(true);
+
+        }
+            
+    }
+    
+    public void CloseToolTip()
+    {
+        if(tooltipPanel.activeInHierarchy)
+        {
+            tooltipPanel.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "";
+            tooltipPanel.SetActive(false);
+        }
+    }
+
+
+    public void OpenInventory()
+    {
+        if(!inventoryOBJ.activeInHierarchy)
+        {
+            inventoryOBJ.SetActive(true);
+        }
+        else
+        {
+            inventoryOBJ.SetActive(false);
+        }
+        
+    }
+
+    public void CloseInventory()
+    {
+        inventoryOBJ.SetActive(false);
+    }
+
+
+    public void OpenCharacter()
+    {
+        if(!characterOBJ.activeInHierarchy)
+        {
+            characterOBJ.SetActive(true);
+        }
+        else
+        {
+            characterOBJ.SetActive(false);
+        }
+        
+    }
+
+    public void CloseCharacter()
+    {
+        characterOBJ.SetActive(false);
     }
 
    
