@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class FarPersonManager : MonoBehaviour
 {
     public string playerName;
+    public int awnserMaxSize;
 
     public List<ChatConv> chatbox;
     [SerializeField] private GameObject inventoryOBJ;
@@ -103,6 +104,27 @@ public class FarPersonManager : MonoBehaviour
     {
         playerAwnser.GetComponent<TextMeshProUGUI>().text += _letter;
         
+    }
+
+    public bool CheckAwnserSize()
+    {
+        if(playerAwnser.GetComponent<TextMeshProUGUI>().text.Length> awnserMaxSize)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public void AwnserClearOne()
+    {
+        string oldAwnser = playerAwnser.GetComponent<TextMeshProUGUI>().text;
+        oldAwnser=oldAwnser.Remove(0, 1);
+        playerAwnser.GetComponent<TextMeshProUGUI>().text = oldAwnser;
+
+
     }
 
     public void ClearAwnser()

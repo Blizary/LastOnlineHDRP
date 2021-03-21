@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
   m_Name: BillyWantsAwnser
   m_EditorClassIdentifier: 
-  characterName: Billy
+  characterName: _blaz3meist3r_1995
   chatText:
-  - Hi friend how you doing
+  - 'yoooooo {PLAYERNAME}!  '
   timer: 0
   options:
   - {fileID: 11400000, guid: 77a215466d0d2d945b3aa752b8f6ab4e, type: 2}
-  - {fileID: 11400000, guid: 8292a39a4e44c78458c749a10c27bb5b, type: 2}

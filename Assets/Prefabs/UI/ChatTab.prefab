@@ -38,7 +38,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -60.61, y: 0}
-  m_SizeDelta: {x: 78.78497, y: 25.379604}
+  m_SizeDelta: {x: 106.6, y: 25.379604}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3754531934885473501
 CanvasRenderer:
@@ -63,6 +63,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -91,6 +92,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -121,6 +123,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 9179347033649555578}
+        m_TargetAssemblyTypeName: 
         m_MethodName: OnPress
         m_Mode: 1
         m_Arguments:
@@ -143,6 +146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd3eac1e84c6dce4488dfdc420b9ee85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tabnum: 0
+  tabname: 
 --- !u!1 &5514604828186236502
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,6 +208,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

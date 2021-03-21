@@ -74,6 +74,12 @@ public class ThirdPersonMovement : MonoBehaviour
             {
                 if(!Input.GetMouseButtonDown(0) && !Input.GetMouseButtonDown(1) && Input.anyKeyDown)
                 {
+                    if(manager.CheckAwnserSize())
+                    {
+                        //chat is full
+                        manager.AwnserClearOne();
+                    }
+
                     manager.AddAwnser(currentAwnser[0]);
                     currentAwnser = currentAwnser.Remove(0,1);
                 }

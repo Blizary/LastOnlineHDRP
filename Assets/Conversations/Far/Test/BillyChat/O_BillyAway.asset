@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73afa3e0513ea954ca26c76194ae049a, type: 3}
   m_Name: O_BillyAway
   m_EditorClassIdentifier: 
-  feelingName: Angry
+  feelingName: 'Hey! '
   playerAwnser:
-  - Billy why man
-  - i dont even know you
+  - Hey dude!
+  - How you doing? Long time no see!
   npcAnwser: {fileID: 11400000, guid: 042957e2038c2f542b3154c212a0d962, type: 2}
