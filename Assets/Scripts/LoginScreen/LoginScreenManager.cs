@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoginScreenManager : MonoBehaviour
 {
+    [SerializeField] private GameObject playButton;
+    [SerializeField] private string nextScene;
 
     [SerializeField] private string username;
     [SerializeField] private GameObject usernameOBJ;
@@ -82,9 +85,15 @@ public class LoginScreenManager : MonoBehaviour
                     typingDone = true;
                     //fadePanel.GetComponent<Animator>().SetTrigger("Fade");
                     //show play button?
+                    playButton.SetActive(true);
                 }
             }
         }
+    }
+
+    public void PlayButtonPress()
+    {
+        SceneManager.LoadScene(nextScene);
     }
 
 

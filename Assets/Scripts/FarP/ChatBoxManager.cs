@@ -205,7 +205,7 @@ public class ChatBoxManager : MonoBehaviour
     void CheckOverflow(int _chat)
     {
 
-        if (generalTextContainer.transform.childCount > 8)
+        if (generalTextContainer.transform.childCount > maxNumOfMessages)
         {
             GameObject trashtext = generalTextContainer.transform.GetChild(0).gameObject;
             trashtext.transform.SetParent(UITrash.transform);

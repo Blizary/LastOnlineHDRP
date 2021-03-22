@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LoadingScreenManager : MonoBehaviour
 {
+    [SerializeField] private string nextScene;
     [SerializeField] private float loadingTimer;
     private float innerLoadingTimer;
     [SerializeField] private List<GameObject> constallations;
@@ -48,6 +50,7 @@ public class LoadingScreenManager : MonoBehaviour
         {
             fadePanel.GetComponent<Animator>().SetTrigger("Fade");
             //loadNextScene
+            SceneManager.LoadScene(nextScene);
         }
     }
 

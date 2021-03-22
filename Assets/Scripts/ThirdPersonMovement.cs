@@ -9,6 +9,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public Transform cam;
     public float speed;
     public float rotSpeed;
+    public float jumpStre;
     float turnSmoothVel;
     public GameObject followPlayer;
 
@@ -18,7 +19,8 @@ public class ThirdPersonMovement : MonoBehaviour
     public ChatOption currentOption;
 
     private ChatBoxManager chatManager;
-
+    private bool isgrounded=true;
+    private float vSpeed = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,9 +39,10 @@ public class ThirdPersonMovement : MonoBehaviour
         {
             dir.z = 1;
         }
-
         if (!manager.inChat)//the player is currently not typing in chat
         {
+
+
             //movement
             if (dir.magnitude >= 0.1f)
             {  
@@ -47,13 +50,17 @@ public class ThirdPersonMovement : MonoBehaviour
                 float targetAngle = Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
                 float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVel, rotSpeed);
                 transform.rotation = Quaternion.Euler(0f, angle, 0f);
+                vSpeed -= 9.8f * Time.deltaTime;
+
 
                 Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-                controller.Move(moveDir.normalized * speed * Time.deltaTime);
+                controller.SimpleMove(moveDir.normalized * speed * Time.deltaTime);
 
                
             }
 
+
+           
 
             if (Input.GetKeyDown(KeyCode.B))
             {
