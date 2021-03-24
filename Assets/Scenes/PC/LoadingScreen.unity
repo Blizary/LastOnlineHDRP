@@ -1069,6 +1069,7 @@ MonoBehaviour:
   - This is a tip
   - This one is an amazing tip
   - tip tip tip tip
+  - Dont stand in fire
   loadingBar: {fileID: 327890687}
   tipUI: {fileID: 1696094247}
   fadePanel: {fileID: 630067756}
