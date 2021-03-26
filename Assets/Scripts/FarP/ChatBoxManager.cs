@@ -100,6 +100,15 @@ public class ChatBoxManager : MonoBehaviour
 
                     CheckOverflow(0);//check if overflow
                 }
+                else
+                {
+                    if(_currentTab.type!=ChatType.chatPublic)
+                    {
+                        _currentTab.tabObj.GetComponent<TabController>().SomethingNew();
+                    }
+                    
+
+                }
 
 
             }
@@ -149,6 +158,8 @@ public class ChatBoxManager : MonoBehaviour
             {
                 newTab.tabName = "General";
                 GameObject newtabDisplay = Instantiate(tabsPrefab, tabsContainer.transform);//create a new tab    
+                newTab.tabObj = newtabDisplay;
+                newTab.tabObj.GetComponent<TabController>().Selected();
             }
             else
             {
@@ -194,6 +205,7 @@ public class ChatBoxManager : MonoBehaviour
                 GameObject newtabDisplay = Instantiate(tabsPrefab, tabsContainer.transform);//create a new tab  
                 newtabDisplay.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = _currentTab.tabName;
                 newtabDisplay.GetComponent<TabController>().tabnum = _currentTab.tabNum;
+                _currentTab.tabObj = newtabDisplay;
             }
         }
 
@@ -326,6 +338,7 @@ public class ChatBoxManager : MonoBehaviour
 
     public void TabsButton(int _tabNum)
     {
+        tabs[currentChat].tabObj.GetComponent<TabController>().NotSelected();
         currentChat = _tabNum;
 
         //clear all messages

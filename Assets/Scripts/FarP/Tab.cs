@@ -12,4 +12,5 @@ public class Tab
     public ChatType type;
     public int tabNum;
     public ChatText lastMessage;
+    public GameObject tabObj;
 }
