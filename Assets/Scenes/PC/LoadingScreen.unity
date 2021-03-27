@@ -1058,7 +1058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b0c3b7af8878c43ba576ab29462efa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: FarPersonGame
+  nextScene: ScrollingText
   loadingTimer: 10
   constallations:
   - {fileID: 827036870}
