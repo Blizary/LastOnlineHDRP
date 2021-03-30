@@ -352,7 +352,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Materials
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\joshd\Documents\LastOnlineHDRP
+  m_LastProjectPath: C:\P\LastOnlineHD\LastOnlineHDRP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -626,9 +626,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.0072767893, y: -0.36460534, z: 0.0028332134, w: -0.93112946}
   m_Size:
-    m_Target: 4.0325737
+    m_Target: 42.10366
     speed: 2
-    m_Value: 4.0325737
+    m_Value: 42.10366
   m_Ortho:
     m_Target: 0
     speed: 2
