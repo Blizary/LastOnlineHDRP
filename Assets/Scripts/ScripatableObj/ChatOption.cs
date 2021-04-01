@@ -8,4 +8,7 @@ public class ChatOption : ScriptableObject
     public string feelingName;
     public List<string> playerAwnser;
     public ChatText npcAnwser;
+    [Header("In case of triggering an event")]
+    public bool triggersEvents;
+    public IngameEvent nextEvent;
 }

@@ -21,12 +21,14 @@ public class ThirdPersonMovement : MonoBehaviour
     private ChatBoxManager chatManager;
     private bool isgrounded=true;
     private float vSpeed = 0;
+    private DoorsManager doorsManager;
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
         manager = GameObject.FindGameObjectWithTag("Manager").GetComponent<FarPersonManager>();
         chatManager = GameObject.FindGameObjectWithTag("ChatManager").GetComponent<ChatBoxManager>();
+        doorsManager = GameObject.FindGameObjectWithTag("DoorsManager").GetComponent<DoorsManager>();
     }
 
     // Update is called once per frame
@@ -79,24 +81,50 @@ public class ThirdPersonMovement : MonoBehaviour
         {
             if(currentAwnser!="")
             {
-                if(!Input.GetMouseButtonDown(0) && !Input.GetMouseButtonDown(1) && Input.anyKeyDown)
+                if(doorsManager.HoldToType())
                 {
-                    if(manager.CheckAwnserSize())
+                    if (!Input.GetMouseButtonDown(0) && !Input.GetMouseButtonDown(1) && Input.anyKey)
                     {
-                        //chat is full
-                        manager.AwnserClearOne();
+                        if (manager.CheckAwnserSize())
+                        {
+                            //chat is full
+                            manager.AwnserClearOne();
+                        }
+
+                        manager.AddAwnser(currentAwnser[0]);
+                        currentAwnser = currentAwnser.Remove(0, 1);
                     }
 
-                    manager.AddAwnser(currentAwnser[0]);
-                    currentAwnser = currentAwnser.Remove(0,1);
                 }
+                else
+                {
+                    if (!Input.GetMouseButtonDown(0) && !Input.GetMouseButtonDown(1) && Input.anyKeyDown)
+                    {
+                        if (manager.CheckAwnserSize())
+                        {
+                            //chat is full
+                            manager.AwnserClearOne();
+                        }
+
+                        manager.AddAwnser(currentAwnser[0]);
+                        currentAwnser = currentAwnser.Remove(0, 1);
+                    }
+                }
+
+                
             }
             else
             {
                 if(Input.GetKeyDown(KeyCode.Return))
                 {
+                    if (currentOption.triggersEvents)
+                    {
+                        doorsManager.StartEvent(currentOption.nextEvent);
+                    }
+
                     chatManager.SendAwnser(currentOption);
                     manager.CloseChat();
+                   
 
                 }
 
