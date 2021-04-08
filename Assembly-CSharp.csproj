@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\PC\ScrollingTextManager.cs" />
     <Compile Include="Assets\Scripts\FarP\WarningController.cs" />
     <Compile Include="Assets\Scripts\ScripatableObj\ChatText.cs" />
+    <Compile Include="Assets\Scripts\DoorsManager.cs" />
     <Compile Include="Assets\Scripts\ScripatableObj\NPC.cs" />
     <Compile Include="Assets\Scripts\PC\DoorsBarManager.cs" />
     <Compile Include="Assets\Scripts\FarP\FollowPlayer.cs" />
@@ -76,7 +77,7 @@
     <Compile Include="Assets\Scripts\LoadingScren\LoadingScreenManager.cs" />
     <Compile Include="Assets\Scripts\FarP\CMFreeLookOnlyWhenMousePress.cs" />
     <Compile Include="Assets\Scripts\FarP\NPCController.cs" />
-    <Compile Include="Assets\Scripts\DoorsManager.cs" />
+    <Compile Include="Assets\Scripts\DesktopManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
