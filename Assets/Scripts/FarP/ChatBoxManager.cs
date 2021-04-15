@@ -309,6 +309,7 @@ public class ChatBoxManager : MonoBehaviour
         GameObject newText = Instantiate(textPrefab, generalTextContainer.transform);
         newText.GetComponent<TextMeshProUGUI>().text = tabs[currentChat].displayedText[tabs[currentChat].currentText - maxNumOfMessages];
         newText.transform.SetAsFirstSibling();
+        Debug.Log("print stuff");
 
 
     }

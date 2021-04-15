@@ -34,12 +34,14 @@ public class ChoiceController : MonoBehaviour
         chatManager.ChoiceMade(currentOption, currentOption.npcAnwser,currentOption.playerAwnser);
     }
 
+   
     public void SetValues(ChatOption _newOption)
     {
         currentOption = _newOption;
         transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = _newOption.feelingName;
         hasOptions = true;
     }
+    
 
     public void ClearValues()
     {

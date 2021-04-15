@@ -47,7 +47,7 @@ public class FarPersonManager : MonoBehaviour
 
     }
 
-
+    
     public void AbilityClicked()
     {
         if(player.GetComponent<ThirdPersonMovement>().hasTarget)
