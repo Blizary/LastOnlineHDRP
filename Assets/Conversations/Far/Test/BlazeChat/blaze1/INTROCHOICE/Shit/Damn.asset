@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
   m_Name: Damn
   m_EditorClassIdentifier: 
-  characterName: blaz3_meist3r_
+  characterName: blaz3
   chatText:
   - damn {PLAYERNAME}
   - how comes?
@@ -20,3 +20,5 @@ MonoBehaviour:
   timer: 1
   options:
   - {fileID: 11400000, guid: 7330006b019406e45a2f98ee4fdd2ede, type: 2}
+  - {fileID: 11400000, guid: a90b17ce8bc2a554fb0d22f313856703, type: 2}
+  - {fileID: 11400000, guid: b49741e4ef5796248bbb169b175abe6a, type: 2}

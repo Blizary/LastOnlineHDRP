@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73afa3e0513ea954ca26c76194ae049a, type: 3}
   m_Name: ShitAns
   m_EditorClassIdentifier: 
-  feelingName: Shit tbh >.<
+  feelingName: shitty tbh >.<
   playerAwnser:
   - pppppppfffttt.
   - alrite
-  - skls a bit shit tho tbh
+  - skls fuckin shit tho tbh
   npcAnwser: {fileID: 11400000, guid: e05bb22b3e64a824598172b84ffe2d8d, type: 2}
+  triggersEvents: 0
+  nextEvent: 0

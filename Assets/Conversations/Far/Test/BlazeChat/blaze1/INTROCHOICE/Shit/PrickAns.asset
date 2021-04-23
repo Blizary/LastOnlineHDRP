@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73afa3e0513ea954ca26c76194ae049a, type: 3}
   m_Name: PrickAns
   m_EditorClassIdentifier: 
-  feelingName: prick...
+  feelingName: fuckin prick
   playerAwnser:
-  - oi leave out mr iced teaaaaaa
-  - :P
-  npcAnwser: {fileID: 11400000, guid: 68a583d13c3ae7b42a17f076f4c75dae, type: 2}
+  - ur a fuckin prick
+  - ' mr arizona iced tea :p'
+  npcAnwser: {fileID: 11400000, guid: 450fb7e4ae62b2e42a80fbe665f8981c, type: 2}
+  triggersEvents: 0
+  nextEvent: 0

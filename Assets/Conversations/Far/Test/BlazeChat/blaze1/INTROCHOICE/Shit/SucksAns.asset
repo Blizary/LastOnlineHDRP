@@ -14,10 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feelingName: evry1 sux!
   playerAwnser:
-  - jst getting shit from the others sometimes
-  - i started making cod youtube vids n some ppl found them in my class
-  - 'so they been takin the piss '
-  - its started to die down now tho
-  - so im alrite innit
-  - :)
+  - everyone fuckin sux!
+  - getting a bit of shit tbh.
   npcAnwser: {fileID: 11400000, guid: dd92a675b0f240045bbe180e578fa3e2, type: 2}
+  triggersEvents: 0
+  nextEvent: 0

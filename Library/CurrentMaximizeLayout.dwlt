@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 881, y: 492}
-  m_MaxSize: {x: 16006, y: 14042}
+  m_MinSize: {x: 880, y: 492}
+  m_MaxSize: {x: 16005, y: 14042}
   vertical: 0
-  controlID: 507
+  controlID: 6965
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 508
+  controlID: 6966
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 509
+  controlID: 6967
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,7 +268,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 487
+  controlID: 6941
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -385,9 +385,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.001564323, y: 0.991962, z: -0.12596363, w: -0.011916213}
   m_Size:
-    m_Target: 140.5008
+    m_Target: 146.41122
     speed: 2
-    m_Value: 140.5008
+    m_Value: 146.41122
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -528,22 +528,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Conversations/Far/Test/BlazeChat/blaze1/Yoo
+    - Assets/Conversations/Far/Test/BlazeChat/blaze1/INTROCHOICE/Shit
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Conversations/Far/Test/BlazeChat/blaze1/Yoo
+  - Assets/Conversations/Far/Test/BlazeChat/blaze1/INTROCHOICE/Shit
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\snowfall\snowfall\LastOnlineHDRP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 193.40002}
-    m_SelectedIDs: be5d0000
-    m_LastClickedID: 23998
-    m_ExpandedIDs: 00000000805d0000825d0000845d0000865d0000885d0000965d000000ca9a3b
+    scrollPos: {x: 0, y: 269.2}
+    m_SelectedIDs: 9a6f0000
+    m_LastClickedID: 28570
+    m_ExpandedIDs: 00000000805d0000825d0000845d0000865d0000885d0000965d0000b65d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -596,8 +596,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 90c6ffff
+    m_LastClickedInstanceID: -14704
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000a85f0000b65f0000
     m_RenameOverlay:
@@ -615,7 +615,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 8}
+      m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -671,8 +671,8 @@ MonoBehaviour:
     y: 0
     width: 311.19995
     height: 731
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -709,7 +709,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: -14704
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
