@@ -19,4 +19,4 @@ MonoBehaviour:
   - come with me.
   timer: 3
   options:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 6f2a65e2dac05274dbb722f3b17d5ac5, type: 2}

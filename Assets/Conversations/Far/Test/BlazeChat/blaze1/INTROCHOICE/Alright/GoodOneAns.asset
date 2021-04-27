@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 73afa3e0513ea954ca26c76194ae049a, type: 3}
-  m_Name: UniformAns
+  m_Name: GoodOneAns
   m_EditorClassIdentifier: 
-  feelingName: oh yh, no uniform...
+  feelingName: wow good one.
   playerAwnser:
-  - 'o yh i forgot '
-  - u guys wear your own clothes to skl!
-  - its where someone pulls ur tie really hard.
-  - so it strangles you a bit
-  - and then u spend like half hour
-  - trying to get the bloody thing undone
-  npcAnwser: {fileID: 11400000, guid: 731f0a74fbfc97f4581c12b9f3624d0d, type: 2}
+  - wow good one lol. peanuts tho.
+  - its where someone pulls ur tie hard.
+  - '*reaaaaally hard*'
+  npcAnwser: {fileID: 11400000, guid: ff9dbf22c8362ce4f97b180cb6c188e5, type: 2}
+  triggersEvents: 0
+  nextEvent: 0

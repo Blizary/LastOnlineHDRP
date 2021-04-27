@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73afa3e0513ea954ca26c76194ae049a, type: 3}
   m_Name: HappyAns
   m_EditorClassIdentifier: 
-  feelingName: happy now he's here
+  feelingName: happy now hes here
   playerAwnser:
-  - i was meh
-  - "happy now you\u2019re online!"
-  - missed ya!
+  - meh...
+  - happy now ur online!
+  - missed ya bruuv!
   npcAnwser: {fileID: 11400000, guid: 556d9a0146b7814428b51a6283492eee, type: 2}
   triggersEvents: 1
   nextEvent: 0

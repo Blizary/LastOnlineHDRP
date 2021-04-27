@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
   m_Name: BeenAges
   m_EditorClassIdentifier: 
-  characterName: blaz3_meist3r_
+  characterName: blaz3_
   chatText:
-  - yeah!
-  - been aaaages
-  - "what\u2019s happening?"
+  - yh! been aaaages
+  - whts happening?
   - 'hows skl? '
-  timer: 1
+  timer: 3
   options:
   - {fileID: 11400000, guid: b19b491d7cd2565469bb14bac9783df5, type: 2}
+  - {fileID: 11400000, guid: 1bbde048767e5594db63876ae9d1a4f5, type: 2}
+  - {fileID: 11400000, guid: 3dfb9d6058a976c4a97a6f9014f2c0b6, type: 2}

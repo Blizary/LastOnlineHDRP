@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
-  m_Name: Bro
+  m_Name: DifferentPond
   m_EditorClassIdentifier: 
-  characterName: blaz3_meist3r_
+  characterName: blaz3_
   chatText:
-  - bro u got this
-  - "it\u2019s not long before we head off to college right? "
-  - im sure loads of guys and gals will love you!
-  - or as u say love u off hahaha.
-  - 'wht do you mean peanut? '
-  - is that some weird brit slang?
-  timer: 1
+  - damn {PLAYERNAME}
+  - they do it different over the pond
+  - dont they huh?
+  timer: 3
   options:
-  - {fileID: 11400000, guid: 9b14919bb3a077d4e83f35b9ffc66f40, type: 2}
+  - {fileID: 11400000, guid: 312b66fa64cbafb41ba4b92249474dc5, type: 2}
+  - {fileID: 11400000, guid: 733a895575e4d774f8fb62d2310ff8ec, type: 2}
+  - {fileID: 11400000, guid: 2e9aeb2ddae03c44ea8f8a85ba8a4168, type: 2}

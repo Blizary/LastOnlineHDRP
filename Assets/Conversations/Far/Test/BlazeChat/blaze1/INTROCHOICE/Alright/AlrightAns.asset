@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feelingName: yh I'm alright 2
   playerAwnser:
-  - yh  not bad not bad
+  - yh not bad
   - been a while hey?
   npcAnwser: {fileID: 11400000, guid: 6f74424dfb0ba3e4b8f389b6a2fd87b8, type: 2}
+  triggersEvents: 0
+  nextEvent: 0

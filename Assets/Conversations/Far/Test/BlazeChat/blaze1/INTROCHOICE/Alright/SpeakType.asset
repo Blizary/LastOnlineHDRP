@@ -10,19 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
-  m_Name: Different
+  m_Name: SpeakType
   m_EditorClassIdentifier: 
-  characterName: blaz3_meist3r_
+  characterName: blaz3_
   chatText:
-  - 'damn {PLAYERNAME}.  '
-  - they do it different over the pond
-  - well {PLAYERNAME]
-  - come with me.
-  - WELCOME to the inn
-  - I showed it to u aeons ago
-  - buuuuuut
-  - for some reason it never quite popped off in here until the new update.
-  - as u can see.
-  timer: 1
+  - well. speak.
+  - or type... mouth n hands
+  - they are working right?
+  timer: 3
   options:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 9b14919bb3a077d4e83f35b9ffc66f40, type: 2}
+  - {fileID: 11400000, guid: 1395d43fe89afa24eadbe8007018756b, type: 2}
+  - {fileID: 11400000, guid: 0bf48ece7648c134aac8434dac662bf2, type: 2}

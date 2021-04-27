@@ -12,17 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73afa3e0513ea954ca26c76194ae049a, type: 3}
   m_Name: StandardAns
   m_EditorClassIdentifier: 
-  feelingName: as per usual
+  feelingName: standard
   playerAwnser:
-  - standard, standard
+  - standard...
+  - i suppose.
   - wht can i say?
-  - sum of the olders found my youtube channel
-  - where I been making dumb cod vids
-  - soooooo
-  - they wouldnt let that lie for a few weeks
-  - -.-
-  - "\u201C{PLAYERNAME}, {PLAYERNAME} cod i borrow u for a few mins?!\u201D"
-  - then theyd peanut me.
-  - "but it\u2019s all calmed down now"
-  - thank fuck.
   npcAnwser: {fileID: 11400000, guid: c0e19b1f3603fb44793e5052d0fd90f5, type: 2}
+  triggersEvents: 0
+  nextEvent: 0
