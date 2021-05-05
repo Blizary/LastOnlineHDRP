@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class TabController : MonoBehaviour
 {
-    public Color defaultColor;
-    public Color selectedColor;
+    public Sprite defaultSprite;
+    public Sprite selectedSprite;
 
     private ChatBoxManager chatManager;
     public int tabnum;
@@ -28,12 +28,12 @@ public class TabController : MonoBehaviour
     {
         chatManager.TabsButton(tabnum);
         blinkIconOBJ.SetActive(false);//turn off blink
-        this.GetComponent<Image>().color = selectedColor;
+        this.GetComponent<Image>().sprite = selectedSprite;
     }
 
     public void NotSelected()
     {
-        this.GetComponent<Image>().color = defaultColor;
+        this.GetComponent<Image>().sprite = defaultSprite;
     }
 
     public void SomethingNew()
@@ -43,6 +43,6 @@ public class TabController : MonoBehaviour
 
     public void Selected()
     {
-        this.GetComponent<Image>().color = selectedColor;
+        this.GetComponent<Image>().sprite = selectedSprite;
     }
 }
