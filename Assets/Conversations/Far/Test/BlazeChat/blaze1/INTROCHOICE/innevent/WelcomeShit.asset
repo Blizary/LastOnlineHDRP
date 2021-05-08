@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
-  m_Name: WelcomeInternetFlirt
+  m_Name: WelcomeShit
   m_EditorClassIdentifier: 
   characterName: blaz3_
   chatText:
-  - welcome to the internet {PLAYERNAME}
-  - ;)
+  - welcome to the internet sk8rgal
+  - even if u do think its a bit shit.
   timer: 3
   options:
   - {fileID: 11400000, guid: 86ec3e4960c460b41b87d33e346980e8, type: 2}

@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
-  m_Name: WelcomeInternetFlirt
+  m_Name: FbDudeBlaze
   m_EditorClassIdentifier: 
   characterName: blaz3_
   chatText:
-  - welcome to the internet {PLAYERNAME}
-  - ;)
+  - oops. shit lollll. u sure do. xD
+  - anyway. with ur CoD youtube channel and all.
+  - i'd say ur deffo garry's type ;) ;) ;) ;) ;)
   timer: 3
-  options:
-  - {fileID: 11400000, guid: 86ec3e4960c460b41b87d33e346980e8, type: 2}
-  - {fileID: 11400000, guid: 16113248d21a2854fa7952fbc10decc9, type: 2}
-  - {fileID: 11400000, guid: 12364a3f408d3ac459c968406606da17, type: 2}
+  options: []

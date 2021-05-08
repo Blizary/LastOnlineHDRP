@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
-  m_Name: WelcomeInternetFlirt
+  m_Name: MaybeLaterBlaze
   m_EditorClassIdentifier: 
   characterName: blaz3_
   chatText:
-  - welcome to the internet {PLAYERNAME}
-  - ;)
+  - ;p maybe l8r.
+  - wander around a bit, have a laugh at their profiles!
+  - click on em! i meannnn look @ garryisa_ legend9.
+  - dreeeam girl xD
   timer: 3
   options:
-  - {fileID: 11400000, guid: 86ec3e4960c460b41b87d33e346980e8, type: 2}
-  - {fileID: 11400000, guid: 16113248d21a2854fa7952fbc10decc9, type: 2}
-  - {fileID: 11400000, guid: 12364a3f408d3ac459c968406606da17, type: 2}
+  - {fileID: 11400000, guid: 572028ffa3685864e934a6c9adefd9ff, type: 2}
+  - {fileID: 11400000, guid: e9d12a128ccf59140a15537d443c9ade, type: 2}
+  - {fileID: 11400000, guid: 316dd0caf02b06e4d8278bc2b8042c08, type: 2}

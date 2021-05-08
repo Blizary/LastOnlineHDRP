@@ -17,4 +17,7 @@ MonoBehaviour:
   - well...
   - if you check the world chat...
   timer: 3
-  options: []
+  options:
+  - {fileID: 11400000, guid: 0e15ce18cf8f6b349a15d8f8d42ad250, type: 2}
+  - {fileID: 11400000, guid: 7c560a2a60a68e147bb9eeac5fd30d0b, type: 2}
+  - {fileID: 11400000, guid: 77058f543813e934bacd7dd5edb6c8ae, type: 2}
