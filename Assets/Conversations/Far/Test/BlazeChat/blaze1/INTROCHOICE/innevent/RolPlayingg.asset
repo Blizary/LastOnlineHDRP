@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
-  m_Name: WelcomeInternetFlirt
+  m_Name: RolPlayingg
   m_EditorClassIdentifier: 
   characterName: blaz3_
   chatText:
-  - welcome to the internet {PLAYERNAME}
-  - ;)
+  - it called roooole playyying.
+  - yh role playing.
+  - 'can be serious or ehhh... something else i suppose. '
   timer: 3
   options:
-  - {fileID: 11400000, guid: 86ec3e4960c460b41b87d33e346980e8, type: 2}
-  - {fileID: 11400000, guid: 16113248d21a2854fa7952fbc10decc9, type: 2}
-  - {fileID: 11400000, guid: 12364a3f408d3ac459c968406606da17, type: 2}
+  - {fileID: 11400000, guid: 91c943319182fa64ebeb5f58ecdbf243, type: 2}
+  - {fileID: 11400000, guid: eddfe060ce5b8ac419b2e3c4410de80b, type: 2}
+  - {fileID: 11400000, guid: 75796d3af67cbb140a211f49baf86ff8, type: 2}

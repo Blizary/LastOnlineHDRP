@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
-  m_Name: WelcomeInternetFlirt
+  m_Name: BeliefBlaze
   m_EditorClassIdentifier: 
   characterName: blaz3_
   chatText:
-  - welcome to the internet {PLAYERNAME}
-  - ;)
+  - belief?
+  - HAAAAAA!
+  - this guy can dream the fuck on xD
   timer: 3
   options:
-  - {fileID: 11400000, guid: 86ec3e4960c460b41b87d33e346980e8, type: 2}
-  - {fileID: 11400000, guid: 16113248d21a2854fa7952fbc10decc9, type: 2}
-  - {fileID: 11400000, guid: 12364a3f408d3ac459c968406606da17, type: 2}
+  - {fileID: 11400000, guid: f1b03b5c3e63c814e9b3826f94d0b887, type: 2}
+  - {fileID: 11400000, guid: 93d3672b042784441b6d2f8bfa9c6c17, type: 2}
+  - {fileID: 11400000, guid: 4ee023dc87bdfaf4bb6586616975c281, type: 2}

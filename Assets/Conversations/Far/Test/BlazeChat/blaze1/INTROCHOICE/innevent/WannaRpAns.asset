@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 73afa3e0513ea954ca26c76194ae049a, type: 3}
-  m_Name: UmOkAns
+  m_Name: WannaRpAns
   m_EditorClassIdentifier: 
-  feelingName: um... ok...
+  feelingName: wanna rp? ;)
   playerAwnser:
-  - ummmm
-  - if u insist!
-  npcAnwser: {fileID: 11400000, guid: b9fa5d74208005a499d6cc2ada3e85bb, type: 2}
+  - wanna rp my guyyyyy
+  - my bruuvvaaaa ;)
+  npcAnwser: {fileID: 11400000, guid: da9d7ec5fb66b6242b4559c8ff947e78, type: 2}
   triggersEvents: 0
   nextEvent: 0

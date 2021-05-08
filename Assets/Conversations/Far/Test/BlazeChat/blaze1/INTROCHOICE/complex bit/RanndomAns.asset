@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 73afa3e0513ea954ca26c76194ae049a, type: 3}
-  m_Name: UmOkAns
+  m_Name: RanndomAns
   m_EditorClassIdentifier: 
-  feelingName: um... ok...
+  feelingName: soooo random xD
   playerAwnser:
-  - ummmm
-  - if u insist!
-  npcAnwser: {fileID: 11400000, guid: b9fa5d74208005a499d6cc2ada3e85bb, type: 2}
+  - people on here are so randommm.
+  - lolz :P
+  npcAnwser: {fileID: 11400000, guid: 783412eb46db32f44b5f8184c8d700a5, type: 2}
   triggersEvents: 0
   nextEvent: 0
