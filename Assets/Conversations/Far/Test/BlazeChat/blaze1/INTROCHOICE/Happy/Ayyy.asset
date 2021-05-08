@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: blaz3_
   chatText:
-  - ayyy {PLAYERNAME}!
+  - ayyy sk8rgal!
   - missed ya too!
   - hows high skl been?
   timer: 3

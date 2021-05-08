@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: blaz3_
   chatText:
-  - welcome to the internet {PLAYERNAME}
+  - welcome to the internet sk8rgal
   - ;)
   timer: 3
   options:

@@ -15,7 +15,7 @@ MonoBehaviour:
   characterName: blaz3_
   chatText:
   - indeed.
-  - welcome to the internet {PLAYERNAME}
+  - welcome to the internet sk8rgal
   timer: 3
   options:
   - {fileID: 11400000, guid: 86ec3e4960c460b41b87d33e346980e8, type: 2}

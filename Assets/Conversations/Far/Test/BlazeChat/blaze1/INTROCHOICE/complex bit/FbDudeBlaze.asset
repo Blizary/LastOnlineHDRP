@@ -18,4 +18,7 @@ MonoBehaviour:
   - anyway. with ur CoD youtube channel and all.
   - i'd say ur deffo garry's type ;) ;) ;) ;) ;)
   timer: 3
-  options: []
+  options:
+  - {fileID: 11400000, guid: 054053ca4b479cc40a6622667874aa7e, type: 2}
+  - {fileID: 11400000, guid: d8c54503c80b65440be1ced401216fbe, type: 2}
+  - {fileID: 11400000, guid: a6984a8ec83ac6d4ea13edd49f98a50c, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: blaz3_
   chatText:
-  - damn {PLAYERNAME}
+  - damn sk8rgal
   - they do it different over the pond
   - dont they huh?
   timer: 3

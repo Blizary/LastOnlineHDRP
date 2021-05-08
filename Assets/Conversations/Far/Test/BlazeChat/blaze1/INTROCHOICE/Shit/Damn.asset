@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: blaz3
   chatText:
-  - damn {PLAYERNAME}
+  - damn sk8rgal
   - how comes?
   - u doing ok tho yeh?
   timer: 1

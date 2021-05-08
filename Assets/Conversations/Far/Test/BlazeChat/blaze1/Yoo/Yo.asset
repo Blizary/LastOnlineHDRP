@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: blaz3_
   chatText:
-  - yoooooo {PLAYERNAME}!
+  - yoooooo sk8rgal!
   timer: 3
   options:
   - {fileID: 11400000, guid: 6b2329875b5d0e84892568aa59085c73, type: 2}
