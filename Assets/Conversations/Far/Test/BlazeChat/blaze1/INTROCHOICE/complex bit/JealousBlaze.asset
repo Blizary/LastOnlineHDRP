@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
   m_Name: JealousBlaze
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   characterName: blaz3_
   chatText:
   - earth to sk8rgalll.
@@ -23,3 +24,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 054053ca4b479cc40a6622667874aa7e, type: 2}
   - {fileID: 11400000, guid: a6984a8ec83ac6d4ea13edd49f98a50c, type: 2}
   - {fileID: 11400000, guid: d8c54503c80b65440be1ced401216fbe, type: 2}
+=======
+  characterName: 
+  chatText: []
+  timer: 0
+  options: []
+>>>>>>> master
