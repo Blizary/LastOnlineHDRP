@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42834912cc6a97e429a741488ba9e271, type: 3}
   m_Name: blaze
   m_EditorClassIdentifier: 
-  npcImage: {fileID: 0}
+  npcImage: {fileID: 21300000, guid: 9437f706cd9c5ab46982a90ab99c2989, type: 3}
   npcName: blaze3_
   tooltipInfo: here for a good time. not a long time.
-  playerIcon: {fileID: 0}
-  affiliationIcon: {fileID: 0}
+  playerIcon: {fileID: 21300000, guid: 9437f706cd9c5ab46982a90ab99c2989, type: 3}
+  affiliationIcon: {fileID: 21300000, guid: ab8f8b737007b6a44937d74a636f0f49, type: 3}
   rpName: blaze. just blaze.
   eyeColour: FIRE
   height: 5ft 11
-  affiliation: Fire, Leo
+  affiliation: 2
   rpClass: Paladin
   description: 'i am a mysterious man. with a mysterious plan.
 

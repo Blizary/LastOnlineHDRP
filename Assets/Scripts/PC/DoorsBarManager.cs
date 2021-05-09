@@ -7,7 +7,8 @@ public class DoorsBarManager : MonoBehaviour
     [SerializeField] private GameObject gameView;
     [SerializeField] private GameObject windowView;
     [SerializeField] private GameObject messengerView;
-    [SerializeField] private GameObject folderView;
+    [SerializeField] private GameObject musicFolderView;
+    [SerializeField] private GameObject photoFolderView;
 
     // Start is called before the first frame update
     void Start()
@@ -43,18 +44,33 @@ public class DoorsBarManager : MonoBehaviour
         gameView.SetActive(false);
     }
 
-    public void FolderBarButton()
+    public void MusicFolderBarButton()
     {
         windowView.SetActive(true);
         gameView.SetActive(false);
 
-        if (folderView.activeInHierarchy)
+        if (musicFolderView.activeInHierarchy)
         {
-            folderView.SetActive(false);
+            musicFolderView.SetActive(false);
         }
         else
         {
-            folderView.SetActive(true);
+            musicFolderView.SetActive(true);
+        }
+    }
+
+    public void PhotoFolderBarButton()
+    {
+        windowView.SetActive(true);
+        gameView.SetActive(false);
+
+        if (photoFolderView.activeInHierarchy)
+        {
+            photoFolderView.SetActive(false);
+        }
+        else
+        {
+            photoFolderView.SetActive(true);
         }
     }
 
@@ -79,8 +95,13 @@ public class DoorsBarManager : MonoBehaviour
         messengerView.SetActive(false);
     }
 
-    public void CloseFolder()
+    public void CloseMusicFolder()
     {
-        folderView.SetActive(false);
+        musicFolderView.SetActive(false);
+    }
+
+    public void ClosePhotoFolder()
+    {
+        photoFolderView.SetActive(false);
     }
 }

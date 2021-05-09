@@ -76,6 +76,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
             }
 
+
         }
         else
         {
@@ -125,7 +126,6 @@ public class ThirdPersonMovement : MonoBehaviour
                     chatManager.SendAwnser(currentOption);
                     manager.CloseChat();
                    
-
                 }
 
         
@@ -143,14 +143,29 @@ public class ThirdPersonMovement : MonoBehaviour
         //close opend tabs and remove targets
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            manager.NoTarget();
-            manager.CloseRPPanel();
-            manager.CloseCharacter();
-            manager.CloseInventory();
-            if (manager.inChat)
+
+            if (manager.CheckOpenPanels() && !manager.inChat)
             {
-                manager.CloseChat();
+                manager.OpenEscPanel();
             }
+            else
+            {
+                manager.NoTarget();
+                manager.CloseRPPanel();
+                manager.CloseCharacter();
+                manager.CloseInventory();
+                if (manager.inChat)
+                {
+                    manager.CloseChat();
+                    manager.ClearAwnser();
+                }
+            }
+
+            
+
+
+
+
         }
 
 

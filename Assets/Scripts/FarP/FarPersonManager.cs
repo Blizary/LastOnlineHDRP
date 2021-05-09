@@ -15,13 +15,24 @@ public class FarPersonManager : MonoBehaviour
     [SerializeField] private string noTargetMessage;
     [SerializeField] private string friendlyTargetMessage;
     [SerializeField] private GameObject warningOBJ;
-    [SerializeField] private GameObject targetFrame;
-    [SerializeField] private GameObject targetName;
-    [SerializeField] private GameObject targetIcon;
+
     [SerializeField] private GameObject optionsPanel;
     [SerializeField] private GameObject playerAwnser;
     [SerializeField] private GameObject rpPanel;
     [SerializeField] private GameObject tooltipPanel;
+    [SerializeField] private GameObject escPanel;
+
+    [Header("Target")]
+    [SerializeField] private GameObject targetFrame;
+    [SerializeField] private GameObject targetName;
+    [SerializeField] private GameObject targetIcon;
+    [SerializeField] private GameObject targetPanel;
+
+    [Header("Covement frames")]
+    public Sprite airFrame;
+    public Sprite waterFrame;
+    public Sprite fireFrame;
+    public Sprite earthFrame;
 
 
     public bool inChat;
@@ -71,6 +82,22 @@ public class FarPersonManager : MonoBehaviour
 
     public void UpdateTarget(NPC _newTarget)
     {
+
+        switch(_newTarget.affiliation)
+        {
+            case Affiliation.Air:
+                targetPanel.GetComponent<Image>().sprite = airFrame;
+                break;
+            case Affiliation.Earth:
+                targetPanel.GetComponent<Image>().sprite = earthFrame;
+                break;
+            case Affiliation.Fire:
+                targetPanel.GetComponent<Image>().sprite = fireFrame;
+                break;
+            case Affiliation.Water:
+                targetPanel.GetComponent<Image>().sprite = waterFrame;
+                break;
+        }
         targetIcon.GetComponent<Image>().sprite = _newTarget.npcImage;
         targetName.GetComponent<TextMeshProUGUI>().text = _newTarget.npcName;
         targetFrame.SetActive(true);
@@ -106,6 +133,7 @@ public class FarPersonManager : MonoBehaviour
         
     }
 
+
     public bool CheckAwnserSize()
     {
         if(playerAwnser.GetComponent<TextMeshProUGUI>().text.Length> awnserMaxSize)
@@ -134,15 +162,11 @@ public class FarPersonManager : MonoBehaviour
 
     public void OpenRPPanel(NPC _npc)
     {
-        rpPanel.transform.GetChild(3).GetComponent<TextMeshProUGUI>().text = _npc.rpName;
-        rpPanel.transform.GetChild(4).GetComponent<TextMeshProUGUI>().text = _npc.eyeColour;
-        rpPanel.transform.GetChild(5).GetComponent<TextMeshProUGUI>().text = _npc.height;
-        rpPanel.transform.GetChild(6).GetComponent<TextMeshProUGUI>().text = _npc.affiliation;
-        rpPanel.transform.GetChild(7).GetComponent<TextMeshProUGUI>().text = _npc.rpClass;
-        rpPanel.transform.GetChild(8).GetComponent<TextMeshProUGUI>().text = _npc.description;
+        rpPanel.GetComponent<RpPanelControll>().nameobj.GetComponent<TextMeshProUGUI>().text = _npc.rpName;
+        rpPanel.GetComponent<RpPanelControll>().eyeColorObj.GetComponent<TextMeshProUGUI>().text = _npc.eyeColour;
+        rpPanel.GetComponent<RpPanelControll>().affiliationObj.GetComponent<TextMeshProUGUI>().text = _npc.affiliation.ToString();
+        rpPanel.GetComponent<RpPanelControll>().descriptionObl.GetComponent<TextMeshProUGUI>().text = _npc.description;
 
-        rpPanel.transform.GetChild(0).GetComponent<Image>().sprite = _npc.playerIcon;
-        rpPanel.transform.GetChild(1).GetComponent<Image>().sprite = _npc.affiliationIcon;
 
         rpPanel.SetActive(true);
     }
@@ -210,5 +234,55 @@ public class FarPersonManager : MonoBehaviour
         characterOBJ.SetActive(false);
     }
 
+
+    public void OpenEscPanel()
+    {
+        
+        if(escPanel.activeInHierarchy)
+        {
+            escPanel.SetActive(false);
+        }
+        else
+        {
+            escPanel.SetActive(true);
+            Debug.Log("open panel");
+        }
+    }
+
+    public bool CheckOpenPanels()
+    {
+        if (inventoryOBJ.activeInHierarchy)
+        {
+            return false;
+        }
+
+        if(characterOBJ.activeInHierarchy)
+        {
+            return false;
+        }
+
+        if(rpPanel.activeInHierarchy)
+        {
+            return false;
+        }    
+
+        if(targetFrame.activeInHierarchy)
+        {
+            return false;
+        }
+
+        return true;
+    }
+
+    public void CloseEscPanel()
+    {
+        escPanel.SetActive(false);
+    }
+
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
    
 }

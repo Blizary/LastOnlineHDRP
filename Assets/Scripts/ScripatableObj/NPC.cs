@@ -2,6 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum Affiliation
+{
+    Air,
+    Water,
+    Fire,
+    Earth
+}
+
+
+
+
 [CreateAssetMenu(fileName = "NewNPC", menuName = "ScriptableObj/ NPC", order = 4)]
 public class NPC : ScriptableObject
 {
@@ -16,7 +27,7 @@ public class NPC : ScriptableObject
     public string rpName;
     public string eyeColour;
     public string height;
-    public string affiliation;
+    public Affiliation affiliation;
     public string rpClass;
     [TextArea] public string description;
 
