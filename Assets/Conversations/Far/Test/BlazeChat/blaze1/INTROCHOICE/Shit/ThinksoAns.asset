@@ -16,6 +16,6 @@ MonoBehaviour:
   playerAwnser:
   - i think so...
   - at least i hope so :/
-  npcAnwser: {fileID: 0}
+  npcAnwser: {fileID: 11400000, guid: 44bde0774b9115b4f8704751d6946550, type: 2}
   triggersEvents: 0
   nextEvent: 0
