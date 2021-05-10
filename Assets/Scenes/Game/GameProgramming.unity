@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 5284.2266, g: 3337.916, b: 2452.711, a: 1}
+  m_IndirectSpecularColor: {r: 5332.953, g: 3343.4238, b: 2400.5, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4522,7 +4522,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 79c3eaaece361b14cbd54950e46f7652, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8e76b8a840f38674299ae56377de4062, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6533,7 +6533,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 530376034}
-  m_LocalRotation: {x: 0.0021635622, y: 0.9221611, z: -0.3867656, w: 0.005158558}
+  m_LocalRotation: {x: 0.0021635327, y: 0.9221611, z: -0.3867656, w: 0.005158487}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -6580,7 +6580,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 226, y: -26.9}
+  m_AnchoredPosition: {x: 226, y: -27.9}
   m_SizeDelta: {x: 128.00003, y: 53.046402}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &578870620
@@ -8795,7 +8795,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 10aeab3d8a4f8e14799df717f6d5f6cb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eba079fcf1ba2704a96c3506f46354cc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13349,7 +13349,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 64.6, y: -27.1}
+  m_AnchoredPosition: {x: 64.6, y: -27.8}
   m_SizeDelta: {x: 128.00003, y: 53.046402}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1031891366
@@ -20567,7 +20567,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1533200497
 Transform:
   m_ObjectHideFlags: 0
@@ -28269,6 +28269,10 @@ MonoBehaviour:
   waterFrame: {fileID: 21300000, guid: 79c3eaaece361b14cbd54950e46f7652, type: 3}
   fireFrame: {fileID: 21300000, guid: 8e76b8a840f38674299ae56377de4062, type: 3}
   earthFrame: {fileID: 21300000, guid: 74f3f00a85e527c47aca2ac84f588b19, type: 3}
+  rpAirFrame: {fileID: 21300000, guid: 10aeab3d8a4f8e14799df717f6d5f6cb, type: 3}
+  rpWaterFrame: {fileID: 21300000, guid: 9bb1fb91926dbae48b84938695ba0aaf, type: 3}
+  rpFireFrame: {fileID: 21300000, guid: eba079fcf1ba2704a96c3506f46354cc, type: 3}
+  rpEarthFrame: {fileID: 21300000, guid: d63ddb08c352e834b82078f01be2d048, type: 3}
   inChat: 0
   player: {fileID: 0}
 --- !u!4 &2140448124

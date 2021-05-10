@@ -33,6 +33,10 @@ public class FarPersonManager : MonoBehaviour
     public Sprite waterFrame;
     public Sprite fireFrame;
     public Sprite earthFrame;
+    public Sprite rpAirFrame;
+    public Sprite rpWaterFrame;
+    public Sprite rpFireFrame;
+    public Sprite rpEarthFrame;
 
 
     public bool inChat;
@@ -162,6 +166,22 @@ public class FarPersonManager : MonoBehaviour
 
     public void OpenRPPanel(NPC _npc)
     {
+        switch (_npc.affiliation)
+        {
+            case Affiliation.Air:
+                rpPanel.GetComponent<Image>().sprite = rpAirFrame;
+                break;
+            case Affiliation.Earth:
+                rpPanel.GetComponent<Image>().sprite = rpEarthFrame;
+                break;
+            case Affiliation.Fire:
+                rpPanel.GetComponent<Image>().sprite = rpFireFrame;
+                break;
+            case Affiliation.Water:
+                rpPanel.GetComponent<Image>().sprite = rpWaterFrame;
+                break;
+        }
+
         rpPanel.GetComponent<RpPanelControll>().nameobj.GetComponent<TextMeshProUGUI>().text = _npc.rpName;
         rpPanel.GetComponent<RpPanelControll>().eyeColorObj.GetComponent<TextMeshProUGUI>().text = _npc.eyeColour;
         rpPanel.GetComponent<RpPanelControll>().affiliationObj.GetComponent<TextMeshProUGUI>().text = _npc.affiliation.ToString();
