@@ -17,6 +17,6 @@ MonoBehaviour:
   - well yay. im 18.
   - prospects look bright, sunny...
   - with a strong chance of heavy showers.
-  npcAnwser: {fileID: 0}
+  npcAnwser: {fileID: 11400000, guid: 44bde0774b9115b4f8704751d6946550, type: 2}
   triggersEvents: 0
   nextEvent: 0
