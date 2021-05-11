@@ -20,12 +20,12 @@ MonoBehaviour:
   rpName: Asklepios
   eyeColour: Deep Purple
   height: 5ft5
-  affiliation: Earth Coven, Virgo
+  affiliation: 0
   rpClass: Alchemist
-  description: "\u2018Askelpios\u2019 rough appearance makes him not the most trustworthy
+  description: "Askelpios\u2019 rough appearance makes him not the most trustworthy
     of potion sellers\u2026 judging by the mad scientist appearance, it seems he
     makes most of his wares himself. A home brew potion definitely seems like a risky
     purchase, but with the greatly reduced price and puppy eyes he gives all potential
     clients, it seems lots of individuals have trouble denying him. Despite it all,
     he has never received a complaint! So his stuff must be legit! Unless\u2026 every
-    customer hasn\u2019t survived long enough to do so....\u2019 "
+    customer hasn\u2019t survived long enough to do so.... "
