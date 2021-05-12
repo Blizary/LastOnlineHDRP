@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feelingName: i wanna leaave
   playerAwnser:
-  - i wanna actually do funnnn shit!
+  - i wanna actually do
+  - funnnn shit!
   npcAnwser: {fileID: 11400000, guid: dd66534e29336364ebc48accb5df4629, type: 2}
   triggersEvents: 0
   nextEvent: 0

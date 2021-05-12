@@ -15,6 +15,6 @@ MonoBehaviour:
   feelingName: i dont get it
   playerAwnser:
   - i dont understand it?
-  npcAnwser: {fileID: 0}
+  npcAnwser: {fileID: 11400000, guid: 23ac945e4305406459c7dc8f53337d9c, type: 2}
   triggersEvents: 0
   nextEvent: 0

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: blaz3_
   chatText:
-  - let's wander around a bit, have a laugh at their profiles!
-  - click on em!
-  - i meannnn look @ garryisa_ legend9.
+  - wander around a bit
+  - have a laugh at their profiles!, click on em!
+  - i meannnn look at that garry guy
   - dreeeam girl xD
   timer: 3
   options:
