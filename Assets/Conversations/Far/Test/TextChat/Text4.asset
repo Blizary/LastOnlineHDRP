@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
   m_Name: Text4
   m_EditorClassIdentifier: 
-  characterName: Billy
+  characterName: LolCaTTz
   chatText:
-  - Oh man come on
+  - Wanna be a hand?
   timer: 2
+  options: []
+  nextNpcText: {fileID: 0}
+  speaker: {fileID: 0}

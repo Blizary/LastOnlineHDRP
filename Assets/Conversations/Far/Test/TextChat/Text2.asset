@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
   m_Name: Text2
   m_EditorClassIdentifier: 
-  characterName: FlameMaster
+  characterName: Wardenn
   chatText:
-  - God damn it billy stop using
-  - the general chat to talk
+  - AHAHAHA
   timer: 2
+  options: []
+  nextNpcText: {fileID: 0}
+  speaker: {fileID: 0}

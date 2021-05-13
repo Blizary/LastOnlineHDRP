@@ -15,4 +15,7 @@ MonoBehaviour:
   characterName: Drukan
   chatText:
   - Just an other day
-  timer: 5
+  timer: 2
+  options: []
+  nextNpcText: {fileID: 0}
+  speaker: {fileID: 0}

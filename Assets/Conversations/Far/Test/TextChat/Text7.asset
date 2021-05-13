@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b4ff5be52b53e4baee5744cee10a4c, type: 3}
   m_Name: Text7
   m_EditorClassIdentifier: 
-  characterName: Billy
-  chatText: Anyone wants a drink?
-  timer: 8
+  characterName: Wardenn
+  chatText:
+  - Wardenn laughs at LolCaTTz.
+  timer: 2
+  options: []
+  nextNpcText: {fileID: 0}
+  speaker: {fileID: 0}
