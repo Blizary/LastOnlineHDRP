@@ -4878,3 +4878,4 @@ Received Import Request.
 Start importing Assets/Conversations/Far/Test/TextChat/51.asset using Guid(d27306db2eca21f45a1bdb810b2186ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77c32d441dcf28351ce9e3b8259478b') in 0.011056 seconds
   Import took 0.019939 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
