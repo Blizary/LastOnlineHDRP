@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feelingName: huh? roleplaying?
   playerAwnser:
-  - the fuuuuuck is roleplaying my guy?
+  - the fuuuuuck
+  - is roleplaying my guy?
   - i just wanna kill shit >:)
   npcAnwser: {fileID: 11400000, guid: 8fbcc9c103604db44a0d2da19bad0fe0, type: 2}
   triggersEvents: 0

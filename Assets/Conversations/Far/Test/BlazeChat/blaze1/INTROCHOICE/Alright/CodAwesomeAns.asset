@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feelingName: cod is awesome!
   playerAwnser:
-  - its AWESOME! ZOMBIEEESSSS :P
+  - 'its AWESOME! '
+  - ZOMBIEEESSSS :P
   - they spend a while making CoD puns.
   - the peanuts didn't stop either.
   npcAnwser: {fileID: 11400000, guid: 44855086f146abf4da392861435689ce, type: 2}

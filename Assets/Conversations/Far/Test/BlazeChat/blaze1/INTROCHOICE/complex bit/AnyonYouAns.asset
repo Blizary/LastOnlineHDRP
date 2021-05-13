@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feelingName: anyone but you :p
   playerAwnser:
-  - literally anyone with a heartbeat
+  - literally anyone
   - is more my type than u ;p
   npcAnwser: {fileID: 11400000, guid: 81b3cc0268aafbc45bce4e492daf1200, type: 2}
   triggersEvents: 0

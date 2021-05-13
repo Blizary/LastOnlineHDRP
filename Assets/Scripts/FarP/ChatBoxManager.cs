@@ -102,7 +102,7 @@ public class ChatBoxManager : MonoBehaviour
                 }
                 else
                 {
-                    if(_currentTab.type!=ChatType.chatPublic)
+                    if(_currentTab.type!=ChatType.chatPublic && _currentTab.type != ChatType.chatSay)
                     {
                         _currentTab.tabObj.GetComponent<TabController>().SomethingNew();
                     }
@@ -161,6 +161,10 @@ public class ChatBoxManager : MonoBehaviour
                 newTab.tabObj = newtabDisplay;
                 newTab.tabObj.GetComponent<TabController>().Selected();
             }
+            else if(manager.chatbox[i].chatType == ChatType.chatSay)
+            {
+                newTab.tabName = "Say";
+            }
             else
             {
                 newTab.tabName = manager.chatbox[i].conversation[0].characterName;
@@ -198,7 +202,7 @@ public class ChatBoxManager : MonoBehaviour
         //wait for timer
         yield return new WaitForSeconds(_timer);
         //check if it is a new tab
-        if (_currentTab.type == ChatType.chatPrivate)
+        if (_currentTab.type != ChatType.chatPublic)
         {
             if (_message == 0)
             {

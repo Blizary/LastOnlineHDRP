@@ -9,4 +9,7 @@ public class ChatText : ScriptableObject
     public List<string> chatText;// text
     public float timer;//time between this text and the previous one
     public List<ChatOption> options;
+    [Header("For say chat only")]
+    public ChatText nextNpcText;
+    public GameObject speaker;
 }

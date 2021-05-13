@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feelingName: pewdiepie sounds hot...
   playerAwnser:
-  - 'i kinda like the sound of this pewdiepie guy :p '
+  - i kinda like the sound
+  - 'of this pewdiepie guy :p '
   npcAnwser: {fileID: 11400000, guid: 338339c67bf5faa43b38191f61408724, type: 2}
   triggersEvents: 0
   nextEvent: 0

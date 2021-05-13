@@ -20,10 +20,10 @@ MonoBehaviour:
   rpName: FieryAeneas
   eyeColour: Scoria Grey
   height: 5ft11
-  affiliation: 'Fire Coven, Leo '
+  affiliation: 0
   rpClass: 'Crusader '
-  description: "\u2018The mighty Constellations have blessed us with these powers
-    we are forever in their debt. As a proud worshipper of the Leo Constellation
-    I use my enhanced strength to crush those who oppose me, as the Constellations
-    intended. Join me in fulfilling your true destiny, maxing out your skill trees
-    and becoming the best Celestial you can be!\u2019 "
+  description: 'The mighty Constellations have blessed us with these powers we are
+    forever in their debt. As a proud worshipper of the Leo Constellation I use my
+    enhanced strength to crush those who oppose me, as the Constellations intended.
+    Join me in fulfilling your true destiny, maxing out your skill trees and becoming
+    the best Celestial you can be! '

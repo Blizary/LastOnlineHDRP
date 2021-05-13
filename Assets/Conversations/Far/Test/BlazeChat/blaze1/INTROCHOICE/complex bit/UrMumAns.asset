@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feelingName: your muuuuum lol
   playerAwnser:
-  - '''you''reeeeeeeeee muuuuuuuuuum!!!!!'
+  - '''you''reeeeeeeeee'
+  - muuuuuuuuuum!!!!!
   - xD
   npcAnwser: {fileID: 11400000, guid: bd48d2bc709882c4da8d7392ed698f6f, type: 2}
   triggersEvents: 0

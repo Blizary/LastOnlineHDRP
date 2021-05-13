@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feelingName: wouldnt ya kno ;)
   playerAwnser:
-  - wouldnt u kno alllll bout that ;)
+  - 'wouldnt u kno alllll bout that '
+  - ;)
   - anyway...college?
   - u mean uni right?
   npcAnwser: {fileID: 11400000, guid: 379c3fdfce4871d4ea31edfd67ae08b2, type: 2}

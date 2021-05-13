@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   feelingName: may the force be w him
   playerAwnser:
-  - maaaay the force be with him!
+  - maaaay the force
+  - be with him!
   - i admire his belief for an online babe.
   npcAnwser: {fileID: 11400000, guid: 1a956b04a8341c845a332bdc7a253504, type: 2}
   triggersEvents: 0
