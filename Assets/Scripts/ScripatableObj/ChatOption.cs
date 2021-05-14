@@ -6,6 +6,7 @@ using UnityEngine;
 public class ChatOption : ScriptableObject
 {
     public string feelingName;
+    //public ChatType chatType;
     public List<string> playerAwnser;
     public ChatText npcAnwser;
     [Header("In case of triggering an event")]

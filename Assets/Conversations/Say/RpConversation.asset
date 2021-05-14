@@ -15,4 +15,4 @@ MonoBehaviour:
   chatType: 2
   conversation:
   - {fileID: 11400000, guid: 23b3580f90297514ea80ba1131a25638, type: 2}
-  - {fileID: 11400000, guid: 06c155ceeadd9e549af9698f69db40b1, type: 2}
+  - {fileID: 0}

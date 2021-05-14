@@ -6,6 +6,7 @@ public class NPCController : MonoBehaviour
 {
     public NPC npcInfo;
     private FarPersonManager manager;
+    public GameObject chatBubble;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,5 +28,11 @@ public class NPCController : MonoBehaviour
     void OnMouseExit()
     {
         manager.CloseToolTip();
+    }
+
+    public void SetChatBubble(string _newText)
+    {
+        chatBubble.GetComponent<ChatBubbleController>().SetChat(_newText);
+        chatBubble.GetComponent<ChatBubbleController>().StartTimer();
     }
 }
