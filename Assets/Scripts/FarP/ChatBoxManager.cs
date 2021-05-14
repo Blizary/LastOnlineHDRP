@@ -59,7 +59,26 @@ public class ChatBoxManager : MonoBehaviour
     /// <param name="_nextMessage"></param>
     void ReadNextMessage(int _message, ChatText _newText, Tab _currentTab)
     {
+        if(_newText!=null)
+        {
+            //if its in say chat and has a speaker trigger the chat ballons
+            if (!string.IsNullOrEmpty(_newText.speaker))
+            {
+                string textbubble = "";
+                for (int i = 0; i < _newText.chatText.Count; i++)//for each line in this message
+                {
+                    textbubble += _newText.chatText[i] + "\n";
+                    Debug.Log(textbubble);
+                }
+                if (GameObject.Find(_newText.speaker))
+                {
+                    GameObject speakerObj = GameObject.Find(_newText.speaker);
+                    speakerObj.transform.GetChild(0).GetComponent<NPCController>().SetChatBubble(textbubble);
+                }
 
+            }
+        }
+        
       
 
 
@@ -133,6 +152,11 @@ public class ChatBoxManager : MonoBehaviour
                 }
                 //wait for anwser
 
+            }
+            else if(_newText.nextNpcText !=null)
+            {
+
+                StartCoroutine(WaitForNextSentence(_newText.nextNpcText.timer, _currentTab, _currentTab.tabChat.Count - 1, _newText.nextNpcText)); 
             }
             else
             {
@@ -212,7 +236,6 @@ public class ChatBoxManager : MonoBehaviour
                 _currentTab.tabObj = newtabDisplay;
             }
         }
-
 
         //read next message
         ReadNextMessage(_message, _newText, _currentTab);

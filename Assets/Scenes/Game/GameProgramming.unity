@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 5334.033, g: 3343.041, b: 2397.9375, a: 1}
+  m_IndirectSpecularColor: {r: 5340.201, g: 3347.0293, b: 2399.2773, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -171,6 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: fa9c6cef7759c604e8118d0a531511e3, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &24984821
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1791,6 +1792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: ca88e7efbd84e8d4cb8d16aa91eab9de, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &137477567
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3089,6 +3091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: b4ba31c11c2290649945c3fd54d62c10, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &264590062
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6715,7 +6718,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 530376034}
-  m_LocalRotation: {x: 0.0021635327, y: 0.9221611, z: -0.3867656, w: 0.005158487}
+  m_LocalRotation: {x: 0.0021635622, y: 0.9221611, z: -0.3867656, w: 0.005158558}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -8754,6 +8757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: 7c8a4853c9ad7ed4f860b893c9014deb, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &727520768
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9061,6 +9065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: abf84ad2a9c3a034b8c823cee0e55843, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &754135942
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9822,6 +9827,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 989280500}
     m_Modifications:
+    - target: {fileID: 6877596287587430709, guid: b2394692c86b0da45a68ffaf9158a38b, type: 3}
+      propertyPath: chatBubble
+      value: 
+      objectReference: {fileID: 1841200977}
     - target: {fileID: 6877596287691419651, guid: b2394692c86b0da45a68ffaf9158a38b, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -11720,6 +11729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: 43758e988cb60c84f9374114c387a6c2, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &889488615
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13110,6 +13120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: 4136e7406e0690d49932fced698bdf73, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &987688227
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14014,6 +14025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: 74c1f074c61fc354baa6a3ff044564c4, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &1046053611
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14782,6 +14794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: b293174decd50424396ac11863720ca8, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &1085788956
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -15243,6 +15256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: 8d957b861e848a040bbe24225080b2f5, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!1 &1112394305
 GameObject:
   m_ObjectHideFlags: 0
@@ -15498,6 +15512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: 58f0db1946820da44a69194109c28d5f, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &1135715121
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -18117,6 +18132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: 94706ab1410dfd940b9dcc92f00debb0, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &1315914597
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -19309,6 +19325,36 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1422249231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1422249232}
+  m_Layer: 0
+  m_Name: LocationsNPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1422249232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422249231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1525618290}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1428141838
 GameObject:
   m_ObjectHideFlags: 0
@@ -20762,6 +20808,7 @@ Transform:
   - {fileID: 1501409046}
   - {fileID: 989280500}
   - {fileID: 1062217241}
+  - {fileID: 1422249232}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -21436,6 +21483,10 @@ PrefabInstance:
     - target: {fileID: 6877596287691419660, guid: b2394692c86b0da45a68ffaf9158a38b, type: 3}
       propertyPath: m_Name
       value: Tulisa
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796556089860082522, guid: b2394692c86b0da45a68ffaf9158a38b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2394692c86b0da45a68ffaf9158a38b, type: 3}
@@ -22762,6 +22813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: eaac8e210620e4e4e960dc07cbdffdc5, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &1759650040
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -24061,6 +24113,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1835065332}
   m_CullTransparentMesh: 0
+--- !u!1 &1841200977 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7796556090246877761, guid: b2394692c86b0da45a68ffaf9158a38b, type: 3}
+  m_PrefabInstance: {fileID: 829835642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1851434090
 GameObject:
   m_ObjectHideFlags: 0
@@ -25465,6 +25522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: 22d2bc3235be53f459625238900a0047, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &1916411903
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -25655,6 +25713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: 7dce9fa8ea32eb64087a310d88cf55fe, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &1937311653
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -26449,6 +26508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: 310957eb2b63ed3479537ab3c5c24ad5, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &1989417634
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -26732,6 +26792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: 36c2e18e6c158984ba05e4244a02cf14, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &2002907316
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -27142,6 +27203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcInfo: {fileID: 11400000, guid: 704dd88a94a5f114a8031fbf8fdc3e24, type: 2}
+  chatBubble: {fileID: 0}
 --- !u!136 &2019746107
 CapsuleCollider:
   m_ObjectHideFlags: 0

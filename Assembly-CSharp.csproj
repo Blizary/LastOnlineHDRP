@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
-    <CscToolPath>C:\Program Files\Unity\Editor\Data\Tools\RoslynScripts</CscToolPath>
-    <CscToolExe>unity_csc.bat</CscToolExe>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -46,30 +44,44 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.7</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>2020.3.0f1</UnityVersion>
+  </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Other\BobUpAndDown.cs" />
-     <Compile Include="Assets\Scripts\LoginScreen\LoginScreenManager.cs" />
-     <Compile Include="Assets\Scripts\FarP\RpPanelControll.cs" />
-     <Compile Include="Assets\Scripts\ScripatableObj\ChatOption.cs" />
-     <Compile Include="Assets\Scripts\DesktopManager.cs" />
-     <Compile Include="Assets\Scripts\FarP\TabController.cs" />
-     <Compile Include="Assets\Scripts\FarP\NewBehaviourScript.cs" />
-     <Compile Include="Assets\Scripts\FarP\Tab.cs" />
-     <Compile Include="Assets\Scripts\FarP\FarPersonManager.cs" />
-     <Compile Include="Assets\Scripts\PC\ScrollingTextManager.cs" />
-     <Compile Include="Assets\Scripts\FarP\WarningController.cs" />
-     <Compile Include="Assets\Scripts\ScripatableObj\ChatText.cs" />
-     <Compile Include="Assets\Scripts\DoorsManager.cs" />
-     <Compile Include="Assets\Scripts\ScripatableObj\NPC.cs" />
-     <Compile Include="Assets\Scripts\PC\DoorsBarManager.cs" />
-     <Compile Include="Assets\Scripts\FarP\FollowPlayer.cs" />
-     <Compile Include="Assets\Scripts\FarP\ChatBoxManager.cs" />
-     <Compile Include="Assets\Scripts\ThirdPersonMovement.cs" />
-     <Compile Include="Assets\Scripts\ScripatableObj\ChatConv.cs" />
-     <Compile Include="Assets\Scripts\FarP\ChoiceController.cs" />
-     <Compile Include="Assets\Scripts\LoadingScren\LoadingScreenManager.cs" />
-     <Compile Include="Assets\Scripts\FarP\CMFreeLookOnlyWhenMousePress.cs" />
-     <Compile Include="Assets\Scripts\FarP\NPCController.cs" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Other\BobUpAndDown.cs" />
+    <Compile Include="Assets\Scripts\LoginScreen\LoginScreenManager.cs" />
+    <Compile Include="Assets\Scripts\FarP\RpPanelControll.cs" />
+    <Compile Include="Assets\Scripts\ScripatableObj\ChatOption.cs" />
+    <Compile Include="Assets\Scripts\DesktopManager.cs" />
+    <Compile Include="Assets\Scripts\FarP\TabController.cs" />
+    <Compile Include="Assets\Scripts\FarP\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\FarP\Tab.cs" />
+    <Compile Include="Assets\Scripts\FarP\FarPersonManager.cs" />
+    <Compile Include="Assets\Scripts\PC\ScrollingTextManager.cs" />
+    <Compile Include="Assets\Scripts\FarP\WarningController.cs" />
+    <Compile Include="Assets\Scripts\ScripatableObj\ChatText.cs" />
+    <Compile Include="Assets\Scripts\DoorsManager.cs" />
+    <Compile Include="Assets\Scripts\ScripatableObj\NPC.cs" />
+    <Compile Include="Assets\Scripts\PC\DoorsBarManager.cs" />
+    <Compile Include="Assets\Scripts\FarP\FollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\FarP\ChatBoxManager.cs" />
+    <Compile Include="Assets\Scripts\ThirdPersonMovement.cs" />
+    <Compile Include="Assets\Scripts\ScripatableObj\ChatConv.cs" />
+    <Compile Include="Assets\Scripts\FarP\ChoiceController.cs" />
+    <Compile Include="Assets\Scripts\LoadingScren\LoadingScreenManager.cs" />
+    <Compile Include="Assets\Scripts\FarP\CMFreeLookOnlyWhenMousePress.cs" />
+    <Compile Include="Assets\Scripts\FarP\NPCController.cs" />
+    <Compile Include="Assets\Scripts\FarP\ChatBubbleController.cs" />
+  </ItemGroup>
+  <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

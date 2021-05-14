@@ -11,5 +11,5 @@ public class ChatText : ScriptableObject
     public List<ChatOption> options;
     [Header("For say chat only")]
     public ChatText nextNpcText;
-    public GameObject speaker;
+    public string speaker;
 }
