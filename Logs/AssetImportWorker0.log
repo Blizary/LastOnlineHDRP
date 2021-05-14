@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 32676 MB
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 6021 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,1092 +11,1308 @@ C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/P/lastStuffTest/LastOnlineHDRP
+C:/Users/bunny/Documents/LastOnlineHDRP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57690
-Successfully changed project path to: C:/P/lastStuffTest/LastOnlineHDRP
-C:/P/lastStuffTest/LastOnlineHDRP
+54535
+Successfully changed project path to: C:/Users/bunny/Documents/LastOnlineHDRP
+C:/Users/bunny/Documents/LastOnlineHDRP
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 109.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 162.88 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/P/lastStuffTest/LastOnlineHDRP/Assets
+[Subsystems] Discovering subsystems at path C:/Users/bunny/Documents/LastOnlineHDRP/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
     Vendor:   
     VRAM:     3962 MB
-    Driver:   27.21.14.5671
+    Driver:   27.21.14.5763
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002292 seconds.
+Registered in 0.007120 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 97.13 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 164.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.304 seconds
+- Completed reload, in  6.851 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002754 seconds.
+Registered in 0.011590 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 95.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 182.66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.417 seconds
+- Completed reload, in  2.762 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.00 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3640 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.1 MB.
-System memory in use after: 184.3 MB.
+Unloading 3642 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.0 MB.
+System memory in use after: 184.2 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4098.
-Total: 2.642100 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.162600 ms MarkObjects: 2.123600 ms  DeleteObjects: 0.064100 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4100.
+Total: 12.714000 ms (FindLiveObjects: 0.736300 ms CreateObjectMapping: 0.207400 ms MarkObjects: 11.559600 ms  DeleteObjects: 0.203400 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Conversations/Say/Awful.asset
   artifactKey: Guid(dc59549e6b82a264a82b00a9092ba2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/Awful.asset using Guid(dc59549e6b82a264a82b00a9092ba2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc32d6c2708c499db5dcc84ae2d6db53') in 0.046786 seconds
-  Import took 0.052963 seconds .
+Start importing Assets/Conversations/Say/Awful.asset using Guid(dc59549e6b82a264a82b00a9092ba2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f747d7a40224c2a1f7063dbb955fd358') in 0.148199 seconds
+  Import took 0.159834 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000666 seconds.
+  Time since last request: 0.001106 seconds.
   path: Assets/Conversations/Say/dastardly.asset
   artifactKey: Guid(7a2d5c8032a9b1043ac4ba756c89129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/dastardly.asset using Guid(7a2d5c8032a9b1043ac4ba756c89129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c675fa569b7b7b238720fe63b427b343') in 0.015350 seconds
-  Import took 0.021319 seconds .
+Start importing Assets/Conversations/Say/dastardly.asset using Guid(7a2d5c8032a9b1043ac4ba756c89129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66587f9a48ad6ad1960589bae9e1c858') in 0.036883 seconds
+  Import took 0.044776 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
+  Time since last request: 0.000547 seconds.
   path: Assets/Conversations/Say/MyCharacter.asset
   artifactKey: Guid(3bfea19893b9a0c459e74273006495a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/MyCharacter.asset using Guid(3bfea19893b9a0c459e74273006495a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531a0510b2506728367695258f0229a4') in 0.013459 seconds
-  Import took 0.019483 seconds .
+Start importing Assets/Conversations/Say/MyCharacter.asset using Guid(3bfea19893b9a0c459e74273006495a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2248830fbabf2a46e818d187bb3b15b1') in 0.033662 seconds
+  Import took 0.045009 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
+  Time since last request: 0.000328 seconds.
   path: Assets/Conversations/Say/rpstart.asset
   artifactKey: Guid(23b3580f90297514ea80ba1131a25638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/rpstart.asset using Guid(23b3580f90297514ea80ba1131a25638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1c3bee80978a2c3f80c51cc7db8c35') in 0.013365 seconds
-  Import took 0.019051 seconds .
+Start importing Assets/Conversations/Say/rpstart.asset using Guid(23b3580f90297514ea80ba1131a25638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c472fa54981b58240a00a52ad8903d') in 0.046736 seconds
+  Import took 0.060057 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000179 seconds.
+  Time since last request: 0.000972 seconds.
   path: Assets/Conversations/Say/great start.asset
   artifactKey: Guid(7b33c6d4016bc544586875f9f6043875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/great start.asset using Guid(7b33c6d4016bc544586875f9f6043875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ab4ec0590537bd2b178b121b0e5eb7') in 0.015276 seconds
-  Import took 0.021400 seconds .
+Start importing Assets/Conversations/Say/great start.asset using Guid(7b33c6d4016bc544586875f9f6043875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa145c460788aad2f580d11653e41b40') in 0.044496 seconds
+  Import took 0.054009 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000150 seconds.
+  Time since last request: 0.000280 seconds.
   path: Assets/Conversations/Say/BlazeLooking.asset
   artifactKey: Guid(308ddef9a8a2cbb4aa75d62c5e10fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/BlazeLooking.asset using Guid(308ddef9a8a2cbb4aa75d62c5e10fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f48188a759696e91961c139c6bfa5b') in 0.015003 seconds
-  Import took 0.021220 seconds .
+Start importing Assets/Conversations/Say/BlazeLooking.asset using Guid(308ddef9a8a2cbb4aa75d62c5e10fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778675bc7647013560a114375bb7bc44') in 0.039573 seconds
+  Import took 0.050151 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000157 seconds.
+  Time since last request: 0.000331 seconds.
   path: Assets/Conversations/Say/blazeewow.asset
   artifactKey: Guid(8856145b79de64842a372a3888f504d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/blazeewow.asset using Guid(8856145b79de64842a372a3888f504d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453c4e7a2da495564558326c5fa1e7aa') in 0.013404 seconds
-  Import took 0.019121 seconds .
+Start importing Assets/Conversations/Say/blazeewow.asset using Guid(8856145b79de64842a372a3888f504d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0b9a6e2928589d2f72599211dd52da') in 0.030997 seconds
+  Import took 0.039710 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000166 seconds.
+  Time since last request: 0.000327 seconds.
   path: Assets/Conversations/Say/BlazeThatsyou.asset
   artifactKey: Guid(0176a5d73dda2164ea0ae28520dad061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/BlazeThatsyou.asset using Guid(0176a5d73dda2164ea0ae28520dad061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c794e85e9f074ea3ed0da22a8722be8') in 0.009029 seconds
-  Import took 0.014447 seconds .
+Start importing Assets/Conversations/Say/BlazeThatsyou.asset using Guid(0176a5d73dda2164ea0ae28520dad061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d4722b4b60ea75d100f134682a3811') in 0.026533 seconds
+  Import took 0.036110 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000170 seconds.
+  Time since last request: 0.000654 seconds.
   path: Assets/Conversations/Say/MistakeAns.asset
   artifactKey: Guid(0edf14f6d39b9324fb8fe2d7ef156314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/MistakeAns.asset using Guid(0edf14f6d39b9324fb8fe2d7ef156314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7ed203e514eb26e3efc824e9656248') in 0.012448 seconds
-  Import took 0.018130 seconds .
+Start importing Assets/Conversations/Say/MistakeAns.asset using Guid(0edf14f6d39b9324fb8fe2d7ef156314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f037bd533b531f070127cfcda5a3c93a') in 0.027758 seconds
+  Import took 0.035782 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
+  Time since last request: 0.000271 seconds.
   path: Assets/Conversations/Say/BlazeFun.asset
   artifactKey: Guid(163451e0dd11b754f854e9f4bdf8fd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/BlazeFun.asset using Guid(163451e0dd11b754f854e9f4bdf8fd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f759992e78252534923153bba4435abd') in 0.013084 seconds
-  Import took 0.018849 seconds .
+Start importing Assets/Conversations/Say/BlazeFun.asset using Guid(163451e0dd11b754f854e9f4bdf8fd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b427ff2966d4492c7c6be552e7c1edab') in 0.033766 seconds
+  Import took 0.043743 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
+  Time since last request: 0.000639 seconds.
   path: Assets/Conversations/Say/urded.asset
   artifactKey: Guid(8e7b6c5029ae9ff499161b145e702c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/urded.asset using Guid(8e7b6c5029ae9ff499161b145e702c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef51c5630805a2590f322686a4f5dae3') in 0.010437 seconds
-  Import took 0.017404 seconds .
+Start importing Assets/Conversations/Say/urded.asset using Guid(8e7b6c5029ae9ff499161b145e702c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e14a9c38b6b67dce4c976078796d44f') in 0.026325 seconds
+  Import took 0.041396 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
+  Time since last request: 0.000490 seconds.
   path: Assets/Conversations/Say/WowAns.asset
   artifactKey: Guid(f1bb427bc7f09a44da3e71e10e404b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/WowAns.asset using Guid(f1bb427bc7f09a44da3e71e10e404b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f62c966d674169470015cc0b8fae3e') in 0.017195 seconds
-  Import took 0.024091 seconds .
+Start importing Assets/Conversations/Say/WowAns.asset using Guid(f1bb427bc7f09a44da3e71e10e404b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ca5a3636d040a097d8895ebf4f682d') in 0.043364 seconds
+  Import took 0.052397 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000180 seconds.
+  Time since last request: 0.000486 seconds.
   path: Assets/Conversations/Say/Blazeweapon.asset
   artifactKey: Guid(905f3c04217bc4c4eab9ccfb56cb5b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/Blazeweapon.asset using Guid(905f3c04217bc4c4eab9ccfb56cb5b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2abc8ae3316c60cde9cfcd0ed729bb') in 0.012034 seconds
-  Import took 0.018235 seconds .
+Start importing Assets/Conversations/Say/Blazeweapon.asset using Guid(905f3c04217bc4c4eab9ccfb56cb5b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5b1c04460d32670705eecbacd6037b') in 0.026633 seconds
+  Import took 0.041239 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
+  Time since last request: 0.000635 seconds.
   path: Assets/Conversations/Say/Blazeidentity.asset
   artifactKey: Guid(6b7b4dd2c580ad54bb940231f339945e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/Blazeidentity.asset using Guid(6b7b4dd2c580ad54bb940231f339945e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8db6720ee9513f4588d7b92dc78f74') in 0.010109 seconds
-  Import took 0.018153 seconds .
+Start importing Assets/Conversations/Say/Blazeidentity.asset using Guid(6b7b4dd2c580ad54bb940231f339945e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240f40fd3e30bc1ddec0ff554e6f635f') in 0.027504 seconds
+  Import took 0.038712 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
+  Time since last request: 0.000289 seconds.
   path: Assets/Conversations/Say/react.asset
   artifactKey: Guid(fa0c8da47a2c0144ba546b42848d3326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/react.asset using Guid(fa0c8da47a2c0144ba546b42848d3326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1338103f47fbf8adb6686a9ba52bf1ec') in 0.022011 seconds
-  Import took 0.028854 seconds .
+Start importing Assets/Conversations/Say/react.asset using Guid(fa0c8da47a2c0144ba546b42848d3326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2958a6b354dcacf420bb10ac34b317ef') in 0.041420 seconds
+  Import took 0.055000 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000170 seconds.
+  Time since last request: 0.000491 seconds.
   path: Assets/Conversations/Say/stabbed.asset
   artifactKey: Guid(23edfcc5de52f3a448269b7436a46003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/stabbed.asset using Guid(23edfcc5de52f3a448269b7436a46003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76e64ac43a2d9c89f670c7d51a7a52f') in 0.010895 seconds
-  Import took 0.018289 seconds .
+Start importing Assets/Conversations/Say/stabbed.asset using Guid(23edfcc5de52f3a448269b7436a46003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fe2a9617c0415dc45cbec2c4239616') in 0.032630 seconds
+  Import took 0.047789 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
+  Time since last request: 0.000351 seconds.
   path: Assets/Conversations/Say/BlazeTrack.asset
   artifactKey: Guid(5a56ab6f4008a1347bdf2341d5d4082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/BlazeTrack.asset using Guid(5a56ab6f4008a1347bdf2341d5d4082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb65a96b3f192ef84c8c2d23439e1a0') in 0.013381 seconds
-  Import took 0.020290 seconds .
+Start importing Assets/Conversations/Say/BlazeTrack.asset using Guid(5a56ab6f4008a1347bdf2341d5d4082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea78cbf99286f4f8530b80f77c7a7e58') in 0.060843 seconds
+  Import took 0.069857 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000183 seconds.
+  Time since last request: 0.000301 seconds.
   path: Assets/Conversations/Say/Aaaa.asset
   artifactKey: Guid(aab6d87dd2031c3448bf0b97a9a9c9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/Aaaa.asset using Guid(aab6d87dd2031c3448bf0b97a9a9c9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026adc01f1d3c716d3d392d3270a7bcd') in 0.017323 seconds
-  Import took 0.025205 seconds .
+Start importing Assets/Conversations/Say/Aaaa.asset using Guid(aab6d87dd2031c3448bf0b97a9a9c9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d39f0333e71d32cfcca351a684a88df') in 0.037930 seconds
+  Import took 0.047642 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
+  Time since last request: 0.000361 seconds.
   path: Assets/Conversations/Say/RpConversation.asset
   artifactKey: Guid(e0c86589f49743940b0d58a17eb92ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/RpConversation.asset using Guid(e0c86589f49743940b0d58a17eb92ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67158a84e5939cb3474812e709c138c6') in 0.029736 seconds
-  Import took 0.037936 seconds .
+Start importing Assets/Conversations/Say/RpConversation.asset using Guid(e0c86589f49743940b0d58a17eb92ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4911329ece1f21a2de8a791639ee0e5b') in 0.049247 seconds
+  Import took 0.059847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Conversations/Say/TheseThingsSir.asset
+  artifactKey: Guid(c6f4da685dc3e54428bf387755257b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/TheseThingsSir.asset using Guid(c6f4da685dc3e54428bf387755257b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df168f8ea2b0180b631de3e71c6f4949') in 0.034749 seconds
+  Import took 0.052628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Conversations/Say/Dramatic.asset
+  artifactKey: Guid(c8b07cb7817f52843a6d0452bea228ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/Dramatic.asset using Guid(c8b07cb7817f52843a6d0452bea228ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe156c5c2c9688ebadc8467c3937eaf') in 0.973440 seconds
+  Import took 0.992949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Conversations/Say/stfu.asset
+  artifactKey: Guid(98a4b6e08cb52c5488e0f839afb0562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/stfu.asset using Guid(98a4b6e08cb52c5488e0f839afb0562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0c54fd782ee35906afca175b3760a0') in 0.039606 seconds
+  Import took 0.051177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Conversations/Say/Heinous.asset
+  artifactKey: Guid(e7ca015485da8ae4ba65e5afcad476d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/Heinous.asset using Guid(e7ca015485da8ae4ba65e5afcad476d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a18a46ab5f3c09bb373e7b0c8db064') in 0.029074 seconds
+  Import took 0.038975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Conversations/Say/TrackAns.asset
+  artifactKey: Guid(5dbb32ff885f0354f9fdbc42de28d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/TrackAns.asset using Guid(5dbb32ff885f0354f9fdbc42de28d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2756355ad75fc0808a6213b6f04c72') in 0.024010 seconds
+  Import took 0.034257 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000432 seconds.
-  path: Assets/Conversations/Say/TheseThingsSir.asset
-  artifactKey: Guid(c6f4da685dc3e54428bf387755257b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/TheseThingsSir.asset using Guid(c6f4da685dc3e54428bf387755257b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0913e10ede655689e3852da7d049bfc5') in 0.013940 seconds
-  Import took 0.021692 seconds .
+  path: Assets/Conversations/Say/BlazeMistake.asset
+  artifactKey: Guid(e2e14a9f5847bd64d88ea6c29e33fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/BlazeMistake.asset using Guid(e2e14a9f5847bd64d88ea6c29e33fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09223a838962885f53f43899cfbd6fa') in 0.022606 seconds
+  Import took 0.035787 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Conversations/Say/Dramatic.asset
-  artifactKey: Guid(c8b07cb7817f52843a6d0452bea228ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/Dramatic.asset using Guid(c8b07cb7817f52843a6d0452bea228ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dbfe9bfa31feeb03db21e74ff954bc') in 0.017310 seconds
-  Import took 0.040882 seconds .
+  Time since last request: 0.000521 seconds.
+  path: Assets/Conversations/Say/FunAnss.asset
+  artifactKey: Guid(9e553148ab7f05b4fb21033d293b1545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FunAnss.asset using Guid(9e553148ab7f05b4fb21033d293b1545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23190b09eef976a4a30231e6e518de1') in 0.041120 seconds
+  Import took 0.053266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Conversations/Say/not doing.asset
+  artifactKey: Guid(28ccba856e1ab234b80b78dc80bb5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/not doing.asset using Guid(28ccba856e1ab234b80b78dc80bb5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82a4865b0d8d800147a0ea2e4abdf97') in 0.039590 seconds
+  Import took 0.049737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Conversations/Say
+  artifactKey: Guid(bd577f439f868084f85200fe5cfc990d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say using Guid(bd577f439f868084f85200fe5cfc990d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fcecc66a16248dd6118398d7570332') in 0.011813 seconds
+  Import took 0.020829 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031301 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.582 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.1 MB.
+System memory in use after: 168.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4103.
+Total: 15.004600 ms (FindLiveObjects: 1.373400 ms CreateObjectMapping: 0.836900 ms MarkObjects: 12.702200 ms  DeleteObjects: 0.086100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 345.218989 seconds.
+  path: Assets/Scripts/Music Player/MusicManager.cs
+  artifactKey: Guid(f17fa847634e09f4cb77d7c1f2fb135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Player/MusicManager.cs using Guid(f17fa847634e09f4cb77d7c1f2fb135c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41df226a43b398c0218db988cd90ff11') in 0.274502 seconds
+  Import took 0.394748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.731197 seconds.
+  path: Assets/Scripts/Music Player/MusicPlayer.prefab
+  artifactKey: Guid(ac10c462c6fd314499e3e6ce1d402830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Music Player/MusicPlayer.prefab using Guid(ac10c462c6fd314499e3e6ce1d402830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4400ce45c36ea875cfd9f33def2c351') in 2.238642 seconds
+  Import took 2.262743 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016202 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 9.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.819 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.3 MB.
+System memory in use after: 168.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 4108.
+Total: 61.212400 ms (FindLiveObjects: 46.701800 ms CreateObjectMapping: 0.708900 ms MarkObjects: 11.360500 ms  DeleteObjects: 2.103000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017275 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.418 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3326 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.3 MB.
+System memory in use after: 168.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4111.
+Total: 6.519100 ms (FindLiveObjects: 0.970500 ms CreateObjectMapping: 0.418300 ms MarkObjects: 4.513400 ms  DeleteObjects: 0.614000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 657.595477 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/AhhhhAns.asset
+  artifactKey: Guid(c63801421d4a0cc4c921ad2d1a038329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/AhhhhAns.asset using Guid(c63801421d4a0cc4c921ad2d1a038329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4107cc83c32d97070897449795fcbe7') in 0.056903 seconds
+  Import took 0.069384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000985 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/ImAlriteeeTyAns.asset
+  artifactKey: Guid(a0ba554a8fb9c234081d511161e860dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/ImAlriteeeTyAns.asset using Guid(a0ba554a8fb9c234081d511161e860dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa7596711c4178c0523bca5560991c7') in 0.018393 seconds
+  Import took 0.031503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/LetsRaidAns.asset
+  artifactKey: Guid(f1bfb264755e7304db1d4858cbe24ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/LetsRaidAns.asset using Guid(f1bfb264755e7304db1d4858cbe24ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b281a9bdcd156fda72f36d8034ac1105') in 0.814774 seconds
+  Import took 0.826209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001039 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/FuckYeahAns.asset
+  artifactKey: Guid(14c614f853b4a10489dc4f018c3db455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/FuckYeahAns.asset using Guid(14c614f853b4a10489dc4f018c3db455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcc135f69e75c91a6132d4711ae26c7') in 0.054473 seconds
+  Import took 0.068492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/RosieNotGood.asset
+  artifactKey: Guid(b280311633c6f8943832e18e3595867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/RosieNotGood.asset using Guid(b280311633c6f8943832e18e3595867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa98e40dd20c6766d98678c65114afcc') in 0.027235 seconds
+  Import took 0.037725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/BlazeOffline.asset
+  artifactKey: Guid(6de8be57a24bf1e49a95939212555e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/BlazeOffline.asset using Guid(6de8be57a24bf1e49a95939212555e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a40627524ab5b04eb30c77dd7617f0') in 0.034371 seconds
+  Import took 0.043786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/RosieBigUni.asset
+  artifactKey: Guid(9fe72b9bc66d6454f98622b93ce7b33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/RosieBigUni.asset using Guid(9fe72b9bc66d6454f98622b93ce7b33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede703cd09d9d8bb6ad4ad0d557cd108') in 0.023674 seconds
+  Import took 0.033124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/HowFeelingAns.asset
+  artifactKey: Guid(fb92d7fbbc7be5347a90b2192bc5a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/HowFeelingAns.asset using Guid(fb92d7fbbc7be5347a90b2192bc5a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e442c6456719b02590f899d240ad540') in 0.021788 seconds
+  Import took 0.031904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/TooCoolAns.asset
+  artifactKey: Guid(c90bfca06f09ce04bb5a9f0eafff9e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/TooCoolAns.asset using Guid(c90bfca06f09ce04bb5a9f0eafff9e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e419e45f0ee2e3d12e5969c6edadb5') in 0.020875 seconds
+  Import took 0.029023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/LookRadAns.asset
+  artifactKey: Guid(fd03eb5fcda1554419e39c0a1a590c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/LookRadAns.asset using Guid(fd03eb5fcda1554419e39c0a1a590c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917c712624bcf8d3c84257260c04e69b') in 0.023394 seconds
+  Import took 0.030377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/RosieGTG.asset
+  artifactKey: Guid(a4319a9f8b3fb414cb494754ab5f4314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/RosieGTG.asset using Guid(a4319a9f8b3fb414cb494754ab5f4314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714640481cd5d1c3c8b877daffddd3ee') in 0.024576 seconds
+  Import took 0.032972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/MoodyAns.asset
+  artifactKey: Guid(fa36dffa16d4fa24a974445b421f71bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/MoodyAns.asset using Guid(fa36dffa16d4fa24a974445b421f71bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0eebdd61abb67e5a78bdd2f66d5395d') in 0.038375 seconds
+  Import took 0.049318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/RosieProblem.asset
+  artifactKey: Guid(ce98256b0e4be254a9454ad98c21c7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/RosieProblem.asset using Guid(ce98256b0e4be254a9454ad98c21c7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b27f93d2bf3817dcc47d92bd76a4794') in 0.030052 seconds
+  Import took 0.039703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/IdkAns.asset
+  artifactKey: Guid(2be79a304aee4b141bbee61566c349a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/IdkAns.asset using Guid(2be79a304aee4b141bbee61566c349a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177d19896e6426848074587eb9edc887') in 0.018650 seconds
+  Import took 0.028754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/RosieBallsUp.asset
+  artifactKey: Guid(eca90c31d35cee74eb5b18fd0019e9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/RosieBallsUp.asset using Guid(eca90c31d35cee74eb5b18fd0019e9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b78227712d2dd6d58327e19bd4f0872') in 0.025669 seconds
+  Import took 0.034428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/BellendAns.asset
+  artifactKey: Guid(58b69261c1b456642911772787e61d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/BellendAns.asset using Guid(58b69261c1b456642911772787e61d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9507ee199cbcb0ab0dc40068f38dfb91') in 0.028984 seconds
+  Import took 0.038207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/BunkItAns.asset
+  artifactKey: Guid(870ff2cd033e30f468f197bb20065584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/BunkItAns.asset using Guid(870ff2cd033e30f468f197bb20065584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9be888df9151b003af1e88ada366c2') in 0.023082 seconds
+  Import took 0.031980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/WorkkAns.asset
+  artifactKey: Guid(dc178b2318ddacd4299d277f3b789d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/WorkkAns.asset using Guid(dc178b2318ddacd4299d277f3b789d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c046a9e69d938185e3954304c2b12a') in 0.026076 seconds
+  Import took 0.034907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/RosieMediaThing.asset
+  artifactKey: Guid(7437dad85a0797f47b93f1aaa989176d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/RosieMediaThing.asset using Guid(7437dad85a0797f47b93f1aaa989176d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d6fbdf64d42c9e0f132304f169a508') in 0.017313 seconds
+  Import took 0.025664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/RosieAwesomeSauce.asset
+  artifactKey: Guid(e1719287595d1934b8335641c4ececa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/RosieAwesomeSauce.asset using Guid(e1719287595d1934b8335641c4ececa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ae4e8313bd0df5f41fc30083599b07') in 0.017977 seconds
+  Import took 0.029525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/RosieNiceToSee.asset
+  artifactKey: Guid(77538aa9e9a25fe4eb99e53d178a9234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/RosieNiceToSee.asset using Guid(77538aa9e9a25fe4eb99e53d178a9234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254ec14dd6b13d14165c3a103a805a79') in 0.026351 seconds
+  Import took 0.034530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/SoSmartAns.asset
+  artifactKey: Guid(651977b6b74aba444be1c004c1a1bf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/SoSmartAns.asset using Guid(651977b6b74aba444be1c004c1a1bf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a5ef9841761fe3ddd2df8bfa05e65a') in 0.018937 seconds
+  Import took 0.028888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/NoChanceAns.asset
+  artifactKey: Guid(8410b7588d2c877419b1637673cc4ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/NoChanceAns.asset using Guid(8410b7588d2c877419b1637673cc4ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789c1b2957760faa949708e825b1163b') in 0.021111 seconds
+  Import took 0.033396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/NoUniAns.asset
+  artifactKey: Guid(16ab02cb18bd6cf42be4dbab7a61aeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/NoUniAns.asset using Guid(16ab02cb18bd6cf42be4dbab7a61aeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c4d4ddf64ddb66ab03480ce30e7c0f') in 0.015926 seconds
+  Import took 0.025362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/LetsDoooItAns.asset
+  artifactKey: Guid(ae7fd9fda898b2c40ab97c966da43999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/LetsDoooItAns.asset using Guid(ae7fd9fda898b2c40ab97c966da43999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6266384dbad6c589d94abde98e7ee883') in 0.016151 seconds
+  Import took 0.027124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/RosieGoodUni.asset
+  artifactKey: Guid(f12093e6b6f24a6488444b067d3f2b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/RosieGoodUni.asset using Guid(f12093e6b6f24a6488444b067d3f2b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd099ef0bf6bb656b6e289fb5d12afa') in 0.023020 seconds
+  Import took 0.031029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/RosieComeOn.asset
+  artifactKey: Guid(52c9c6cf970bb6e468e9925073080bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/RosieComeOn.asset using Guid(52c9c6cf970bb6e468e9925073080bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14c7e40daa9b395b89ad5410699664e') in 0.025290 seconds
+  Import took 0.033299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/RosieImGood.asset
+  artifactKey: Guid(f3dfba61603cdbb47a4f25bfe15820c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/RosieImGood.asset using Guid(f3dfba61603cdbb47a4f25bfe15820c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc155d6b12c5af3a5ab82d724d4591d') in 0.023849 seconds
+  Import took 0.031762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/RosieHopeTime.asset
+  artifactKey: Guid(6a8497be6994ff74d97713998ca2e0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/RosieHopeTime.asset using Guid(6a8497be6994ff74d97713998ca2e0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e467744bd545344532c3600904b65f0') in 0.027042 seconds
+  Import took 0.034468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/MaybeWeSeeAns.asset
+  artifactKey: Guid(7749f740572459c4bab784b927dfb595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/MaybeWeSeeAns.asset using Guid(7749f740572459c4bab784b927dfb595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240dd534a3c2398cf2d73f03e9365fe4') in 0.020584 seconds
+  Import took 0.028574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/DnttWorryAns.asset
+  artifactKey: Guid(f9aaed12a912dd7439ef927fa78b3c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/DnttWorryAns.asset using Guid(f9aaed12a912dd7439ef927fa78b3c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84c5ceaff90e1b76b8d0fa2d4e8a849') in 0.032281 seconds
+  Import took 0.040721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Conversations/Say/EndMMOScene/RosieFinals.asset
+  artifactKey: Guid(558b85bce4c088748b71868a633ab222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndMMOScene/RosieFinals.asset using Guid(558b85bce4c088748b71868a633ab222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1720444f6fe935f71a8638d6791ce2') in 0.024985 seconds
+  Import took 0.039879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.336357 seconds.
+  path: Assets/Conversations/Say/EndRPScene/BlazeeLewd.asset
+  artifactKey: Guid(a4389c098a77e4749bf037952bc6dbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndRPScene/BlazeeLewd.asset using Guid(a4389c098a77e4749bf037952bc6dbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d16fce432214b080204750cf7feea4') in 0.045420 seconds
+  Import took 0.063281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Conversations/Say/EndRPScene/NekoKno.asset
+  artifactKey: Guid(d557b2caf3c67c0459bd0d2ac633e2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndRPScene/NekoKno.asset using Guid(d557b2caf3c67c0459bd0d2ac633e2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac20c791000f8a40c8180d6647a81b6') in 0.031468 seconds
+  Import took 0.039958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Conversations/Say/EndRPScene/BlazeFarOff.asset
+  artifactKey: Guid(8cfa6fe3948636c4b9778ffe8361da30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndRPScene/BlazeFarOff.asset using Guid(8cfa6fe3948636c4b9778ffe8361da30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b2e754c2a3e93f78c73884be87aea6') in 0.034776 seconds
+  Import took 0.043706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Conversations/Say/EndRPScene/NekoService.asset
+  artifactKey: Guid(920960d53270cbe46ba9cc8b4c581de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndRPScene/NekoService.asset using Guid(920960d53270cbe46ba9cc8b4c581de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8689bbcb2602f169c60cc104376cde31') in 0.033150 seconds
+  Import took 0.043221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Conversations/Say/EndRPScene/RosieBet.asset
+  artifactKey: Guid(9cea6105fc1522140991bac7df6c0021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndRPScene/RosieBet.asset using Guid(9cea6105fc1522140991bac7df6c0021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1525ee74d163b332939c25230e5bb25') in 0.035299 seconds
+  Import took 0.046180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Conversations/Say/EndRPScene/RosieWine.asset
+  artifactKey: Guid(78b1b645a266d224480632c7765b2c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndRPScene/RosieWine.asset using Guid(78b1b645a266d224480632c7765b2c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e960e20522f04f6bd68cdfcd02c23da3') in 0.035985 seconds
+  Import took 0.044755 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000237 seconds.
-  path: Assets/Conversations/Say/stfu.asset
-  artifactKey: Guid(98a4b6e08cb52c5488e0f839afb0562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/stfu.asset using Guid(98a4b6e08cb52c5488e0f839afb0562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175f9e62fb2130ab00f23426e6377c9d') in 0.029533 seconds
-  Import took 0.037214 seconds .
+  path: Assets/Conversations/Say/EndRPScene/BlazeTavernWench.asset
+  artifactKey: Guid(4d8fbb17de0904e4b98af00fad69cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndRPScene/BlazeTavernWench.asset using Guid(4d8fbb17de0904e4b98af00fad69cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9849e5c03cbeac0dc4ecfe8e550568') in 0.033618 seconds
+  Import took 0.045453 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Conversations/Say/Heinous.asset
-  artifactKey: Guid(e7ca015485da8ae4ba65e5afcad476d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/Heinous.asset using Guid(e7ca015485da8ae4ba65e5afcad476d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab049af5efb2dd233c6f70526eabcf0e') in 0.015158 seconds
-  Import took 0.021180 seconds .
+  Time since last request: 0.000396 seconds.
+  path: Assets/Conversations/Say/EndRPScene/HeheAsns.asset
+  artifactKey: Guid(b54f27573a4aa384980f46c3b0a1131a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndRPScene/HeheAsns.asset using Guid(b54f27573a4aa384980f46c3b0a1131a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07eee80f9862487cf4062a6a08114acd') in 0.031055 seconds
+  Import took 0.039931 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Conversations/Say/TrackAns.asset
-  artifactKey: Guid(5dbb32ff885f0354f9fdbc42de28d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/TrackAns.asset using Guid(5dbb32ff885f0354f9fdbc42de28d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e4885aee7b61a98f85c1302db16026') in 0.022616 seconds
-  Import took 0.028544 seconds .
+  Time since last request: 0.000404 seconds.
+  path: Assets/Conversations/Say/EndRPScene/BodyWarm.asset
+  artifactKey: Guid(4a280edcc4f4d69449fb173da747c9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/EndRPScene/BodyWarm.asset using Guid(4a280edcc4f4d69449fb173da747c9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556afdd079f3b32403d1e959fb66b438') in 0.032597 seconds
+  Import took 0.040345 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Conversations/Say/BlazeMistake.asset
-  artifactKey: Guid(e2e14a9f5847bd64d88ea6c29e33fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/BlazeMistake.asset using Guid(e2e14a9f5847bd64d88ea6c29e33fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393a667e76fc5bcba304b9a534c66402') in 0.011966 seconds
-  Import took 0.017951 seconds .
+  Time since last request: 0.101160 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/AirCovern.asset
+  artifactKey: Guid(24e786c84c59d4940b4f12653fc9537d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/AirCovern.asset using Guid(24e786c84c59d4940b4f12653fc9537d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b718fbd007a114db5846e385555492') in 0.064728 seconds
+  Import took 0.073403 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Conversations/Say/FunAnss.asset
-  artifactKey: Guid(9e553148ab7f05b4fb21033d293b1545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/FunAnss.asset using Guid(9e553148ab7f05b4fb21033d293b1545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f1db0138e561f8c92d1a87bee9a09e') in 0.013202 seconds
-  Import took 0.020848 seconds .
+  Time since last request: 0.000259 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/NotOuttaQAns.asset
+  artifactKey: Guid(44d3b914ad3379540be37a7c626206bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/NotOuttaQAns.asset using Guid(44d3b914ad3379540be37a7c626206bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b56e915639c9e2e0633314c38ef9ba') in 0.039895 seconds
+  Import took 0.051234 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Conversations/Say/not doing.asset
-  artifactKey: Guid(28ccba856e1ab234b80b78dc80bb5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/not doing.asset using Guid(28ccba856e1ab234b80b78dc80bb5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18e97decd5ddd0e8c7e6bf2f0ff57d9') in 0.013452 seconds
-  Import took 0.020782 seconds .
+  Time since last request: 0.000413 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/RosieJerry.asset
+  artifactKey: Guid(6aee4c9c126aa184c9b8add7b7372efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/RosieJerry.asset using Guid(6aee4c9c126aa184c9b8add7b7372efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7604e30f798718259a0afe76d39f80fb') in 0.055816 seconds
+  Import took 0.065404 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001414 seconds.
-  path: Assets/Conversations/Say
-  artifactKey: Guid(bd577f439f868084f85200fe5cfc990d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say using Guid(bd577f439f868084f85200fe5cfc990d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34023181a6fcfc9229aa33106b693f32') in 0.006906 seconds
-  Import took 0.014580 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002952 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.294 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3324 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.2 MB.
-System memory in use after: 168.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4101.
-Total: 2.735100 ms (FindLiveObjects: 0.287200 ms CreateObjectMapping: 0.150200 ms MarkObjects: 2.280100 ms  DeleteObjects: 0.016400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002841 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.285 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3324 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.3 MB.
-System memory in use after: 168.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4104.
-Total: 7.790700 ms (FindLiveObjects: 0.512900 ms CreateObjectMapping: 0.201800 ms MarkObjects: 7.050300 ms  DeleteObjects: 0.023800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002773 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.310 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3324 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.3 MB.
-System memory in use after: 168.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4107.
-Total: 3.045200 ms (FindLiveObjects: 0.495600 ms CreateObjectMapping: 0.195100 ms MarkObjects: 2.335100 ms  DeleteObjects: 0.017900 ms)
+  Time since last request: 0.000380 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/JerrySubterfuge.asset
+  artifactKey: Guid(add48fbd887404f448db560e69488ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/JerrySubterfuge.asset using Guid(add48fbd887404f448db560e69488ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f0fdd8b274c36ca50d5b8cac561ed0') in 0.040654 seconds
+  Import took 0.050894 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1765.145971 seconds.
-  path: Assets/Conversations/Far/Test/BlazeChat/BlazeConvo.asset
-  artifactKey: Guid(1dd0b58c6df19354f989e251cf730c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Far/Test/BlazeChat/BlazeConvo.asset using Guid(1dd0b58c6df19354f989e251cf730c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25296c68817c1384407ba42b7e779e3f') in 0.056378 seconds
-  Import took 0.065123 seconds .
+  Time since last request: 0.001148 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/RosieSorry.asset
+  artifactKey: Guid(301c6c4ed99585a44bdfd105437fd93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/RosieSorry.asset using Guid(301c6c4ed99585a44bdfd105437fd93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092d67b821fba402f44a6c0de80ad940') in 0.048531 seconds
+  Import took 0.060787 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.017252 seconds.
-  path: Assets/Conversations/Far/Test/BlazeChat/blaze1/Yoo/Yo.asset
-  artifactKey: Guid(972f884e0444ea94b8b085c67d47d011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Far/Test/BlazeChat/blaze1/Yoo/Yo.asset using Guid(972f884e0444ea94b8b085c67d47d011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588adcc399d3ebbed75789fcadbf1d82') in 0.047628 seconds
-  Import took 0.057142 seconds .
+  Time since last request: 0.000285 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/RosieLookForward.asset
+  artifactKey: Guid(61f64bcfd50fa6e43921f468fd5d5b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/RosieLookForward.asset using Guid(61f64bcfd50fa6e43921f468fd5d5b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82206a008c880c4b6f978f02952d7aba') in 0.049547 seconds
+  Import took 0.060301 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.044058 seconds.
-  path: Assets/Conversations/Far/Test/BlazeChat/blaze1/Yoo/Hey.asset
-  artifactKey: Guid(6b2329875b5d0e84892568aa59085c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Far/Test/BlazeChat/blaze1/Yoo/Hey.asset using Guid(6b2329875b5d0e84892568aa59085c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d290101e24530ff7c496480695e84a8') in 0.045663 seconds
-  Import took 0.055910 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003269 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.279 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3324 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.3 MB.
-System memory in use after: 168.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4110.
-Total: 3.158300 ms (FindLiveObjects: 0.462800 ms CreateObjectMapping: 0.208100 ms MarkObjects: 2.456900 ms  DeleteObjects: 0.028700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004202 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.256 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3324 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.3 MB.
-System memory in use after: 168.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4113.
-Total: 3.655500 ms (FindLiveObjects: 0.522600 ms CreateObjectMapping: 0.239100 ms MarkObjects: 2.874000 ms  DeleteObjects: 0.018500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003602 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.285 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3324 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.3 MB.
-System memory in use after: 168.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4116.
-Total: 4.313300 ms (FindLiveObjects: 0.489000 ms CreateObjectMapping: 0.175700 ms MarkObjects: 3.627800 ms  DeleteObjects: 0.019200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003434 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.276 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3324 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.4 MB.
-System memory in use after: 168.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4119.
-Total: 3.590500 ms (FindLiveObjects: 0.300000 ms CreateObjectMapping: 0.148400 ms MarkObjects: 3.120300 ms  DeleteObjects: 0.020000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004583 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.283 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3324 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.4 MB.
-System memory in use after: 168.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4122.
-Total: 4.535200 ms (FindLiveObjects: 0.583600 ms CreateObjectMapping: 0.253700 ms MarkObjects: 3.675500 ms  DeleteObjects: 0.021200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003864 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.246 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3324 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.4 MB.
-System memory in use after: 168.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4125.
-Total: 2.991200 ms (FindLiveObjects: 0.397000 ms CreateObjectMapping: 0.169100 ms MarkObjects: 2.404600 ms  DeleteObjects: 0.018600 ms)
+  Time since last request: 0.000229 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/BlazeHorses.asset
+  artifactKey: Guid(66369c730d390384cb54cf7b04661566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/BlazeHorses.asset using Guid(66369c730d390384cb54cf7b04661566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ea35f962eae47271f03bc3a55bb86b') in 0.052154 seconds
+  Import took 0.060801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1066.627872 seconds.
-  path: Assets/Scripts/Other
-  artifactKey: Guid(25352400accd7034b8b2510bcb43a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Other using Guid(25352400accd7034b8b2510bcb43a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930eb3cf679c603be742fca76b93abcf') in 0.015267 seconds
-  Import took 0.025552 seconds .
+  Time since last request: 0.000255 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/FoundItPlayer.asset
+  artifactKey: Guid(6b3df7cc565a9114a9b579ef6e1fd6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/FoundItPlayer.asset using Guid(6b3df7cc565a9114a9b579ef6e1fd6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8a9527fb62a242409d523f41305add') in 0.067676 seconds
+  Import took 0.075993 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.814823 seconds.
-  path: Assets/Scripts/FarP
-  artifactKey: Guid(06e624daed22d0a47ba84fdc2fa75213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FarP using Guid(06e624daed22d0a47ba84fdc2fa75213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69618a3f9cf6d3e8d34a84e48fb30866') in 0.006860 seconds
-  Import took 0.014219 seconds .
+  Time since last request: 0.000237 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/inreallifeAns.asset
+  artifactKey: Guid(90e8c673d0652094f994493a576b6442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/inreallifeAns.asset using Guid(90e8c673d0652094f994493a576b6442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8054716f68941345c7fa89fc74e729') in 0.045794 seconds
+  Import took 0.053778 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.918179 seconds.
-  path: Assets/Scripts/FarP/ChatBubbleController.cs
-  artifactKey: Guid(0a953fd3dec949446ae2aae767e009af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FarP/ChatBubbleController.cs using Guid(0a953fd3dec949446ae2aae767e009af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78256f529ca9569a5be54a48ebf420d7') in 0.014223 seconds
-  Import took 0.023175 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002875 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.341 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.4 MB.
-System memory in use after: 168.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4129.
-Total: 4.108400 ms (FindLiveObjects: 0.502800 ms CreateObjectMapping: 0.235700 ms MarkObjects: 3.350500 ms  DeleteObjects: 0.018200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002811 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.241 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.4 MB.
-System memory in use after: 168.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4132.
-Total: 2.734500 ms (FindLiveObjects: 0.307800 ms CreateObjectMapping: 0.149400 ms MarkObjects: 2.258800 ms  DeleteObjects: 0.017200 ms)
+  Time since last request: 0.000300 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/SeemWayAns.asset
+  artifactKey: Guid(524098083413ece4a907c02a0b85b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/SeemWayAns.asset using Guid(524098083413ece4a907c02a0b85b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1ce12f6374212070f86545c766981a') in 0.049789 seconds
+  Import took 0.059086 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 293.673281 seconds.
-  path: Assets/Scripts/FarP/ChatBubbleController.cs
-  artifactKey: Guid(0a953fd3dec949446ae2aae767e009af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FarP/ChatBubbleController.cs using Guid(0a953fd3dec949446ae2aae767e009af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc70ffd35c450ef5ee9717e9127a220d') in 0.007071 seconds
-  Import took 0.013574 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004047 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.269 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.4 MB.
-System memory in use after: 168.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4135.
-Total: 6.124800 ms (FindLiveObjects: 0.510400 ms CreateObjectMapping: 0.434300 ms MarkObjects: 5.156300 ms  DeleteObjects: 0.022100 ms)
+  Time since last request: 0.000300 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/WhyDoThat.asset
+  artifactKey: Guid(cfd91c83908f613448d0483262cdc865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/WhyDoThat.asset using Guid(cfd91c83908f613448d0483262cdc865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b41f820b8550ecfa3da28f2977afca6') in 0.051315 seconds
+  Import took 0.061277 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 455.574673 seconds.
-  path: Assets/Conversations/Say/RpConversation.asset
-  artifactKey: Guid(e0c86589f49743940b0d58a17eb92ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/RpConversation.asset using Guid(e0c86589f49743940b0d58a17eb92ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89852ac46860b0e5d7011fd81d3213e6') in 0.026396 seconds
-  Import took 0.033829 seconds .
+  Time since last request: 0.000317 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/Blazesetup.asset
+  artifactKey: Guid(0aac88f14bdd1f24dae46901a85f7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/Blazesetup.asset using Guid(0aac88f14bdd1f24dae46901a85f7929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d845549984ec2ea908ccd2e0264305a') in 0.045521 seconds
+  Import took 0.054055 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004200 seconds.
-  path: Assets/Conversations/Say/RpConversation.asset
-  artifactKey: Guid(e0c86589f49743940b0d58a17eb92ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/RpConversation.asset using Guid(e0c86589f49743940b0d58a17eb92ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89852ac46860b0e5d7011fd81d3213e6') in 0.011110 seconds
-  Import took 0.017557 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002940 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.311 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.4 MB.
-System memory in use after: 168.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4138.
-Total: 2.864900 ms (FindLiveObjects: 0.474600 ms CreateObjectMapping: 0.151100 ms MarkObjects: 2.219000 ms  DeleteObjects: 0.018300 ms)
+  Time since last request: 0.000370 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/BlazeKnowOther.asset
+  artifactKey: Guid(2baedbc94fe74494da07211f28b3d279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/BlazeKnowOther.asset using Guid(2baedbc94fe74494da07211f28b3d279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfc7e566056af82ad9f5d9caf651946') in 0.058326 seconds
+  Import took 0.066659 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 752.288146 seconds.
-  path: Assets/Conversations/Say/Aaaa.asset
-  artifactKey: Guid(aab6d87dd2031c3448bf0b97a9a9c9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Conversations/Say/Aaaa.asset using Guid(aab6d87dd2031c3448bf0b97a9a9c9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e2c7c830bffcabebaef87ad11c4191') in 0.025096 seconds
-  Import took 0.034278 seconds .
+  Time since last request: 0.000349 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/BlazeLeftFrameKnifw.asset
+  artifactKey: Guid(eb5ebb52387a2e44eb608b9369f5f801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/BlazeLeftFrameKnifw.asset using Guid(eb5ebb52387a2e44eb608b9369f5f801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b3e7e1a1e8510f85e7fc0b04a6bce9') in 0.039960 seconds
+  Import took 0.051509 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002876 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.230 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.4 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4141.
-Total: 3.836000 ms (FindLiveObjects: 0.331700 ms CreateObjectMapping: 0.151600 ms MarkObjects: 3.328100 ms  DeleteObjects: 0.022900 ms)
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/BlazeFairPlay.asset
+  artifactKey: Guid(c154eedfde52f0146830450d76542a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/BlazeFairPlay.asset using Guid(c154eedfde52f0146830450d76542a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fc98358337d1b36c5037bb04bcd507') in 0.051313 seconds
+  Import took 0.061734 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002715 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.263 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.4 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4144.
-Total: 2.998400 ms (FindLiveObjects: 0.496300 ms CreateObjectMapping: 0.178400 ms MarkObjects: 2.306700 ms  DeleteObjects: 0.016200 ms)
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/GoodDay.asset
+  artifactKey: Guid(74c095c2f206f524d8c88ec798554d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/GoodDay.asset using Guid(74c095c2f206f524d8c88ec798554d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700969dde4c6b15bffd208cf59cfeae9') in 0.052809 seconds
+  Import took 0.065772 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002804 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.253 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.4 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4147.
-Total: 3.150800 ms (FindLiveObjects: 0.390200 ms CreateObjectMapping: 0.169700 ms MarkObjects: 2.571900 ms  DeleteObjects: 0.017600 ms)
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/BlazeCough.asset
+  artifactKey: Guid(0628d2817b9166a4f912ff6bfaac59ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/BlazeCough.asset using Guid(0628d2817b9166a4f912ff6bfaac59ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d98a274b0dac5f4060bc33d9b80a0e3') in 0.037831 seconds
+  Import took 0.047319 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002823 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.243 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.4 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4150.
-Total: 3.127800 ms (FindLiveObjects: 0.531500 ms CreateObjectMapping: 0.224800 ms MarkObjects: 2.351800 ms  DeleteObjects: 0.018400 ms)
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/FramingAns.asset
+  artifactKey: Guid(ffd41b0a704abab4b897c9f532afa8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/FramingAns.asset using Guid(ffd41b0a704abab4b897c9f532afa8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea6ef1d9b274048d79666feb9ac5ce4') in 0.062234 seconds
+  Import took 0.070482 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004290 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.263 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.4 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4153.
-Total: 2.774800 ms (FindLiveObjects: 0.312300 ms CreateObjectMapping: 0.156800 ms MarkObjects: 2.286700 ms  DeleteObjects: 0.018200 ms)
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/RosieHelp.asset
+  artifactKey: Guid(0c41afdddf4926045acdfeda0f2b7a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/RosieHelp.asset using Guid(0c41afdddf4926045acdfeda0f2b7a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0c0803ff2fce7f375c1927bcfcdaf5') in 0.035146 seconds
+  Import took 0.045143 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004099 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.288 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.5 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4156.
-Total: 2.959000 ms (FindLiveObjects: 0.297000 ms CreateObjectMapping: 0.150500 ms MarkObjects: 2.494600 ms  DeleteObjects: 0.015600 ms)
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/YoyoyoAns.asset
+  artifactKey: Guid(53945127686ec0b4bb568f6502e65afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/YoyoyoAns.asset using Guid(53945127686ec0b4bb568f6502e65afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1976058766915474b89193ae8693705') in 0.042449 seconds
+  Import took 0.051413 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002827 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.371 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.5 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4159.
-Total: 19.069400 ms (FindLiveObjects: 0.478000 ms CreateObjectMapping: 0.238000 ms MarkObjects: 18.329700 ms  DeleteObjects: 0.022000 ms)
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/PossibleAirAns.asset
+  artifactKey: Guid(68e43463248984a4c9b75ba74e693d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/PossibleAirAns.asset using Guid(68e43463248984a4c9b75ba74e693d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaecce66d1503b1fd535cdc5cc5d5f8') in 0.036303 seconds
+  Import took 0.044180 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002873 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.286 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.5 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4162.
-Total: 3.015900 ms (FindLiveObjects: 0.499400 ms CreateObjectMapping: 0.184600 ms MarkObjects: 2.313000 ms  DeleteObjects: 0.017500 ms)
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/DoNotKnowAns.asset
+  artifactKey: Guid(b97e956cda4d36d45832b403df278f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/DoNotKnowAns.asset using Guid(b97e956cda4d36d45832b403df278f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850a1e488de0d22f456c3c6bc5a20a46') in 0.051476 seconds
+  Import took 0.060231 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003820 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.249 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.5 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4165.
-Total: 3.251000 ms (FindLiveObjects: 0.488800 ms CreateObjectMapping: 0.222700 ms MarkObjects: 2.519200 ms  DeleteObjects: 0.019000 ms)
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/JustShutUpAns.asset
+  artifactKey: Guid(275c76fba5abffb45b006609591d6d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/JustShutUpAns.asset using Guid(275c76fba5abffb45b006609591d6d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8219b32524c982b7201ab05b5aaf850b') in 0.071744 seconds
+  Import took 0.087725 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004934 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.242 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.5 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4168.
-Total: 2.641200 ms (FindLiveObjects: 0.290400 ms CreateObjectMapping: 0.143200 ms MarkObjects: 2.192000 ms  DeleteObjects: 0.014600 ms)
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/NowWhatAns.asset
+  artifactKey: Guid(fceaa1a725eb18f4aa89214e3064fe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/NowWhatAns.asset using Guid(fceaa1a725eb18f4aa89214e3064fe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8545ec060946aa3adde5e3fbb75baf') in 0.844704 seconds
+  Import took 0.860725 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002812 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.246 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.73 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.5 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4171.
-Total: 2.704700 ms (FindLiveObjects: 0.333300 ms CreateObjectMapping: 0.150100 ms MarkObjects: 2.202500 ms  DeleteObjects: 0.017600 ms)
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/BlazeUseful.asset
+  artifactKey: Guid(682019f2295eb224f9cd376fe2dd8a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/BlazeUseful.asset using Guid(682019f2295eb224f9cd376fe2dd8a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945f7f4f3536cdc3f5dd236430e87096') in 0.056832 seconds
+  Import took 0.066591 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003239 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.291 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.5 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4174.
-Total: 3.203900 ms (FindLiveObjects: 0.469500 ms CreateObjectMapping: 0.155700 ms MarkObjects: 2.555500 ms  DeleteObjects: 0.021900 ms)
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/Heiiinous.asset
+  artifactKey: Guid(f00128045a2b4b445b867bc0643f312b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/Heiiinous.asset using Guid(f00128045a2b4b445b867bc0643f312b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546de7f91963eb0d9712e7ffcecd07fd') in 0.049092 seconds
+  Import took 0.061860 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003658 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.287 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.5 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4177.
-Total: 4.064900 ms (FindLiveObjects: 0.452600 ms CreateObjectMapping: 0.178500 ms MarkObjects: 3.415800 ms  DeleteObjects: 0.016700 ms)
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/Pollitical.asset
+  artifactKey: Guid(ff70277ff94623c42826893f6b146ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/Pollitical.asset using Guid(ff70277ff94623c42826893f6b146ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0334e8b19049e62dfce1904b5b50b0d5') in 0.058173 seconds
+  Import took 0.069577 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003140 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.317 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.5 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4180.
-Total: 2.888600 ms (FindLiveObjects: 0.356400 ms CreateObjectMapping: 0.151400 ms MarkObjects: 2.358200 ms  DeleteObjects: 0.021100 ms)
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/ShitJobAns.asset
+  artifactKey: Guid(def1ceff22e41da419a737f0749cd23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/ShitJobAns.asset using Guid(def1ceff22e41da419a737f0749cd23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfad610f1a05a4cb62f37ed0c1746bfc') in 0.042535 seconds
+  Import took 0.053166 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002781 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.274 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.5 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4183.
-Total: 3.181300 ms (FindLiveObjects: 0.576200 ms CreateObjectMapping: 0.195000 ms MarkObjects: 2.389500 ms  DeleteObjects: 0.018900 ms)
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/Rosieforevr.asset
+  artifactKey: Guid(65a1842fc4ea1b04fb18ef3b64d7dee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/Rosieforevr.asset using Guid(65a1842fc4ea1b04fb18ef3b64d7dee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0b719554e8b3a82b564b6c8623c05a') in 0.041673 seconds
+  Import took 0.052802 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004154 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.347 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.5 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4186.
-Total: 3.623200 ms (FindLiveObjects: 0.511300 ms CreateObjectMapping: 0.198300 ms MarkObjects: 2.894200 ms  DeleteObjects: 0.018100 ms)
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/BlazeLeftKnife.asset
+  artifactKey: Guid(ba365b1195d44cc48b2f2f6f869380dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/BlazeLeftKnife.asset using Guid(ba365b1195d44cc48b2f2f6f869380dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd678a67dde9e5f8199aa000b88cc935') in 0.035512 seconds
+  Import took 0.042935 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003004 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.08 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.291 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3325 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.5 MB.
-System memory in use after: 168.8 MB.
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/ProbablyNotAns.asset
+  artifactKey: Guid(9e36ef1cc7f167f4a80ab39173a48a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/ProbablyNotAns.asset using Guid(9e36ef1cc7f167f4a80ab39173a48a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fcc057b57e4d91b20e03846989ac259') in 0.051116 seconds
+  Import took 0.061819 seconds .
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4189.
-Total: 4.079200 ms (FindLiveObjects: 0.313700 ms CreateObjectMapping: 0.155800 ms MarkObjects: 3.584800 ms  DeleteObjects: 0.023800 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/BlazeIncite.asset
+  artifactKey: Guid(673f031fd01dd28469db65e6e194a1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/BlazeIncite.asset using Guid(673f031fd01dd28469db65e6e194a1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1387aa0de24c650bb8553f2d9232ec3') in 0.051231 seconds
+  Import took 0.060354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/BlazeRighttt.asset
+  artifactKey: Guid(e7b039dc134dfc048a65cef976e76205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/BlazeRighttt.asset using Guid(e7b039dc134dfc048a65cef976e76205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc8815d65dbeb5ec848f70cf33016bb') in 0.035812 seconds
+  Import took 0.043223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/BlazeLemmeSee.asset
+  artifactKey: Guid(d4f3211068baefd46a6d2e19ee2d1e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/BlazeLemmeSee.asset using Guid(d4f3211068baefd46a6d2e19ee2d1e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eceba5c28bf497ed98a41427f4be732') in 0.061554 seconds
+  Import took 0.070754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/RosieFishy.asset
+  artifactKey: Guid(b4b3b7a28093bc94f81f40acd5739db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/RosieFishy.asset using Guid(b4b3b7a28093bc94f81f40acd5739db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d89808e6b4061a5b6938771422782d') in 0.032933 seconds
+  Import took 0.040612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/FramingJerry.asset
+  artifactKey: Guid(9e715f64eb69ef641965c06d53a71553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/FramingJerry.asset using Guid(9e715f64eb69ef641965c06d53a71553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b68774edbd9fcd33d1195b3f90adec') in 0.058986 seconds
+  Import took 0.066816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/TracksAns.asset
+  artifactKey: Guid(7465ffac2bfbc514a9f1aacc068b1ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/TracksAns.asset using Guid(7465ffac2bfbc514a9f1aacc068b1ef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a81d9b589aa434f723f41c8464e2f68') in 0.057492 seconds
+  Import took 0.066840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/BlazeIMean.asset
+  artifactKey: Guid(bf7be93a2d1ac98469d7e61e3bd8f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/BlazeIMean.asset using Guid(bf7be93a2d1ac98469d7e61e3bd8f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f521843fa91badb1923be60ed67184b2') in 0.052341 seconds
+  Import took 0.061956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/mYmurder.asset
+  artifactKey: Guid(b0af1ba1e99602947938d1755f604bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/mYmurder.asset using Guid(b0af1ba1e99602947938d1755f604bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254493fc1b3499785f23f52e1e012d10') in 0.048134 seconds
+  Import took 0.056749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/NoClueAns.asset
+  artifactKey: Guid(50269e064dd8afb47b60eae23010e35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/NoClueAns.asset using Guid(50269e064dd8afb47b60eae23010e35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095c526863ba7eb2db504084a6ffa0ae') in 0.037592 seconds
+  Import took 0.046020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/BlazeObvious.asset
+  artifactKey: Guid(ecea505e8179c9b4b89ca79e44aa2f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/BlazeObvious.asset using Guid(ecea505e8179c9b4b89ca79e44aa2f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5dd4255149204a3663d9021c9d5442') in 0.056397 seconds
+  Import took 0.064386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/RosieLogicLeap.asset
+  artifactKey: Guid(4688e04a33eeabf41a72a74c75974337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/RosieLogicLeap.asset using Guid(4688e04a33eeabf41a72a74c75974337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b5a13da48aa22f89d815346ed2e30e') in 0.036860 seconds
+  Import took 0.047471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/FrameAnsss.asset
+  artifactKey: Guid(4acf3aa03cbeeff48b46537b1373bfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/FrameAnsss.asset using Guid(4acf3aa03cbeeff48b46537b1373bfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69208f4bb957c829461bf47f499751be') in 0.037997 seconds
+  Import took 0.046806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/JerryDetec.asset
+  artifactKey: Guid(c825146408715db4bb75808322649026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/JerryDetec.asset using Guid(c825146408715db4bb75808322649026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3588795892a13faa32d519537ddf91ef') in 0.053835 seconds
+  Import took 0.061555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/BlazeSharp.asset
+  artifactKey: Guid(f7a70fdccad62fa4fb4c230b5ab846a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/BlazeSharp.asset using Guid(f7a70fdccad62fa4fb4c230b5ab846a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a529b2e4e362b3705f5892e4487ba3') in 0.056947 seconds
+  Import took 0.066190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/RosieCheers.asset
+  artifactKey: Guid(6dc1eb007d666ec43adcea38c527c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/RosieCheers.asset using Guid(6dc1eb007d666ec43adcea38c527c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004073a3eb822c17220f2532aa0626de') in 0.034635 seconds
+  Import took 0.043315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/RosieYeah.asset
+  artifactKey: Guid(9630d39eca55d354c87ef3d9af263d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/RosieYeah.asset using Guid(9630d39eca55d354c87ef3d9af263d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3ebf24b47688e469bb245c33a4615e') in 0.048728 seconds
+  Import took 0.056556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/TulisaRP.asset
+  artifactKey: Guid(4b80ea83bc63db5408c9c7d5be0de2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/TulisaRP.asset using Guid(4b80ea83bc63db5408c9c7d5be0de2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f0d110976b9c5c5919ebb1caea8847') in 0.039825 seconds
+  Import took 0.046927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/RosieEnter.asset
+  artifactKey: Guid(38062fe3d6c8f814b9da2bd06c57634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/RosieEnter.asset using Guid(38062fe3d6c8f814b9da2bd06c57634c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03161fc0b4808148d188c04a4a1f244d') in 0.049135 seconds
+  Import took 0.059794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/Motivee.asset
+  artifactKey: Guid(804b83673d296ae41ac5a5503e979c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/Motivee.asset using Guid(804b83673d296ae41ac5a5503e979c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dd255fd24ebfba11fd7d17ee75ad54') in 0.046720 seconds
+  Import took 0.055524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/OskarKnife.asset
+  artifactKey: Guid(9ee37da9f34ed4146b570773097f3218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/OskarKnife.asset using Guid(9ee37da9f34ed4146b570773097f3218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d95f2cc126eaec1afbc4036ff41d8ed') in 0.034771 seconds
+  Import took 0.042435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/RosieFigure.asset
+  artifactKey: Guid(7208de718cbaef54f8008e7f47fd0a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/RosieFigure.asset using Guid(7208de718cbaef54f8008e7f47fd0a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500fe5192afd48eefde359d49020b3e2') in 0.034135 seconds
+  Import took 0.041581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Conversations/Say/FindKnifeOnwards/WIn.asset
+  artifactKey: Guid(241c6f523db4ace43b2366d96608ea48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/FindKnifeOnwards/WIn.asset using Guid(241c6f523db4ace43b2366d96608ea48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605ce4072b499e614dd6aa65c4113ae1') in 0.047901 seconds
+  Import took 0.057855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 266.397173 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BlazeFindKnife.asset
+  artifactKey: Guid(253bde91a41318a4bb5d674c963902d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BlazeFindKnife.asset using Guid(253bde91a41318a4bb5d674c963902d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745e4b25c2a9228aa47d926f2b592d5f') in 0.024694 seconds
+  Import took 0.034144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/FindKnifeAns.asset
+  artifactKey: Guid(0a5937900a5663c43a7be1e280fdb604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/FindKnifeAns.asset using Guid(0a5937900a5663c43a7be1e280fdb604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb8aeac62602957707675c194633149') in 0.020987 seconds
+  Import took 0.029982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BlazeKnifeBlood.asset
+  artifactKey: Guid(371977b080e767943b7a0e09d0f25a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BlazeKnifeBlood.asset using Guid(371977b080e767943b7a0e09d0f25a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e511d78d9489e1746ad6e593f14ea87') in 0.026222 seconds
+  Import took 0.035239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/SlaveAns.asset
+  artifactKey: Guid(4298f97033a5db84485d94fe47b03048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/SlaveAns.asset using Guid(4298f97033a5db84485d94fe47b03048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30cf41a99b2ee3aa506acd8049c5a35') in 0.814027 seconds
+  Import took 0.824009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004706 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/OhRightAns.asset
+  artifactKey: Guid(375a690ae8d5f2f43a74faa660656f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/OhRightAns.asset using Guid(375a690ae8d5f2f43a74faa660656f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86ee5dfb06d8fbbf4575ec502c0c37a') in 0.036508 seconds
+  Import took 0.049551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/NoWorries.asset
+  artifactKey: Guid(887c7ff37e2c2484d8757d0d0eda93c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/NoWorries.asset using Guid(887c7ff37e2c2484d8757d0d0eda93c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f75484299b13cd1518a4e16210e2a4') in 0.015357 seconds
+  Import took 0.025320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/YouDoAns.asset
+  artifactKey: Guid(6c3b124a40eb4fd469b0886edd7d8e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/YouDoAns.asset using Guid(6c3b124a40eb4fd469b0886edd7d8e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b1450f85546055822e696407370602') in 0.017134 seconds
+  Import took 0.026268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/WhyMeAns.asset
+  artifactKey: Guid(639ff71129b272f45bfe91c124bed072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/WhyMeAns.asset using Guid(639ff71129b272f45bfe91c124bed072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0788ce82a687cd5175805573bd2052') in 0.021769 seconds
+  Import took 0.029722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BlazeFlirttt.asset
+  artifactKey: Guid(98443c2b4e2f7b649850fa070609b1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BlazeFlirttt.asset using Guid(98443c2b4e2f7b649850fa070609b1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c315e102f114689adab9287cadcd6c') in 0.017342 seconds
+  Import took 0.024700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BlazeKnife.asset
+  artifactKey: Guid(26381ca427ce02e408621e8c0558ae7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BlazeKnife.asset using Guid(26381ca427ce02e408621e8c0558ae7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c03091451d73ea9334996b6527317a') in 0.020546 seconds
+  Import took 0.030649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BlazeThanksM.asset
+  artifactKey: Guid(7968e2ce47eac1e46bff57403217c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BlazeThanksM.asset using Guid(7968e2ce47eac1e46bff57403217c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaab4d0c7e00e725421ca5f9f8c7a3a4') in 0.017165 seconds
+  Import took 0.032858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BlazeNew.asset
+  artifactKey: Guid(92389006b4b1ec74185d7e42109072d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BlazeNew.asset using Guid(92389006b4b1ec74185d7e42109072d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423b940eb6a1f893c6bd05e8ef125037') in 0.017468 seconds
+  Import took 0.029636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BloodOn.asset
+  artifactKey: Guid(2416b7613c9e7b44ea15bde27339a443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BloodOn.asset using Guid(2416b7613c9e7b44ea15bde27339a443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6234c956d9fee96fd6d396199387ff5c') in 0.016948 seconds
+  Import took 0.029024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/DetectiveLegsAns.asset
+  artifactKey: Guid(d348bc929bad2b1419d22637da53a07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/DetectiveLegsAns.asset using Guid(d348bc929bad2b1419d22637da53a07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b949ff2af704222c0180b0652e4c3788') in 0.015703 seconds
+  Import took 0.027398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.077840 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BlazeFindKnife.asset
+  artifactKey: Guid(253bde91a41318a4bb5d674c963902d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BlazeFindKnife.asset using Guid(253bde91a41318a4bb5d674c963902d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793e3c3fd920bf6b13ef7bed49c9e18e') in 0.011854 seconds
+  Import took 0.023989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BlazeKnifeBlood.asset
+  artifactKey: Guid(371977b080e767943b7a0e09d0f25a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BlazeKnifeBlood.asset using Guid(371977b080e767943b7a0e09d0f25a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f313cd2644bf6d3e18ca1fd1b94e3e') in 0.008347 seconds
+  Import took 0.017200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/NoWorries.asset
+  artifactKey: Guid(887c7ff37e2c2484d8757d0d0eda93c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/NoWorries.asset using Guid(887c7ff37e2c2484d8757d0d0eda93c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2950101e11c99ea5d59c6956b167a63c') in 0.013691 seconds
+  Import took 0.024350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BlazeFlirttt.asset
+  artifactKey: Guid(98443c2b4e2f7b649850fa070609b1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BlazeFlirttt.asset using Guid(98443c2b4e2f7b649850fa070609b1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a3c52eed4ab76bdabbfe08a4c9fe3c') in 0.009694 seconds
+  Import took 0.019892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000950 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BlazeKnife.asset
+  artifactKey: Guid(26381ca427ce02e408621e8c0558ae7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BlazeKnife.asset using Guid(26381ca427ce02e408621e8c0558ae7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa39eed8a92d82d76b445bdf10af6fb9') in 0.020385 seconds
+  Import took 0.034956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BlazeThanksM.asset
+  artifactKey: Guid(7968e2ce47eac1e46bff57403217c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BlazeThanksM.asset using Guid(7968e2ce47eac1e46bff57403217c303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcca8fa8b570971d50e478711dccaf9') in 0.011738 seconds
+  Import took 0.021847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BlazeNew.asset
+  artifactKey: Guid(92389006b4b1ec74185d7e42109072d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BlazeNew.asset using Guid(92389006b4b1ec74185d7e42109072d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a3e081b7dc4e0931d8a1d2e3f7c87f') in 0.015279 seconds
+  Import took 0.024899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Conversations/Say/RpsceneCont/BloodOn.asset
+  artifactKey: Guid(2416b7613c9e7b44ea15bde27339a443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conversations/Say/RpsceneCont/BloodOn.asset using Guid(2416b7613c9e7b44ea15bde27339a443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17727a5131d32b6360f0c3da5f48b73e') in 0.013716 seconds
+  Import took 0.023351 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

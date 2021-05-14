@@ -19,4 +19,4 @@ MonoBehaviour:
   options:
   - {fileID: 11400000, guid: 7465ffac2bfbc514a9f1aacc068b1ef7, type: 2}
   nextNpcText: {fileID: 0}
-  speaker: {fileID: 1610450211964813349, guid: 958075bbeac775c42b070a14923f3c33, type: 3}
+  speaker: Oskar_

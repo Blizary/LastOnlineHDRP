@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\FarP\RpPanelControll.cs" />
     <Compile Include="Assets\Scripts\ScripatableObj\ChatOption.cs" />
     <Compile Include="Assets\Scripts\DesktopManager.cs" />
+    <Compile Include="Assets\Scripts\FarP\ChatBubbleController.cs" />
     <Compile Include="Assets\Scripts\FarP\TabController.cs" />
     <Compile Include="Assets\Scripts\FarP\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\FarP\Tab.cs" />

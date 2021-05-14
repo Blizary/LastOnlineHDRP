@@ -22,4 +22,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b97e956cda4d36d45832b403df278f8d, type: 2}
   - {fileID: 11400000, guid: 9e36ef1cc7f167f4a80ab39173a48a7e, type: 2}
   nextNpcText: {fileID: 0}
-  speaker: {fileID: 6494082560280537646, guid: cc0c7c88a8b4fcb4db22c85dd148cbb5, type: 3}
+  speaker: Tulisaa
