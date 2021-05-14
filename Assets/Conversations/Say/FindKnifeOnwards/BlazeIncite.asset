@@ -19,4 +19,4 @@ MonoBehaviour:
   timer: 3
   options: []
   nextNpcText: {fileID: 11400000, guid: ff70277ff94623c42826893f6b146ca5, type: 2}
-  speaker: {fileID: 0}
+  speaker: {fileID: 3736774611685896743, guid: 340579376756e414c8e4ab2cab47dea6, type: 3}

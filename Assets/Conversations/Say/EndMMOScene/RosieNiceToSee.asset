@@ -23,4 +23,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f1bfb264755e7304db1d4858cbe24ce7, type: 2}
   - {fileID: 11400000, guid: dc178b2318ddacd4299d277f3b789d78, type: 2}
   nextNpcText: {fileID: 0}
-  speaker: {fileID: 0}
+  speaker: {fileID: 8219735579080058923, guid: c0adfc08217a8614497151ce9c52836e, type: 3}
